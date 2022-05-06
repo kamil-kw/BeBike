@@ -1,0 +1,14 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022050601",
+        "name": "Vyber Ride E1 Special Edition M7",
+        "description": "This is the award-winning Vyber Ride E1 Special Edition M7 2022 Women. You have probably been told that this bicycle has been assessed as an economical choice by the ANWB in 2021. And we understand that this e-bike has received that label!",
+        "price": 1999,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://www.fietsenwinkel.nl/vyber-ride-e1-special-edition-m7-2022-500wh-dames",
+        "image": "DP01000000000M.png"
+    }
+}]
