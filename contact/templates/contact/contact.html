@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% load static %}
+<!-- 
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'contact/css/contact.css' %}">
+{% endblock %} -->
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<!-- Overlay -->
+<div class="overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <hr>
+            <h2 class="logo-font mb-4">CONTACT US</h2>
+            <hr>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="container">
+        <div class="row">
+            <!-- Contact form -->
+            <br>
+            <div class="col-sm-7 contact-form">
+                <h2 class="mb-2">Leave us message</h2>
+                <div class="row">
+                    <div class="col">
+                        <form action="{% url 'contact' %}" method="POST">
+                            {% csrf_token %}
+                            {% for field in form %}
+                                {{ field | as_crispy_field}}
+                            {% endfor %}
+                            <input type="submit" value="Submit" class="btn btn-black">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Store address details -->
+            <div class="col-sm-5 text-center">
+                <h2 class="mb-2">Contact details</h2>
+                <p><i class="fas fa-map-marker-alt"></i><br>
+                    Antonioustraat 8<br>
+                    Waalwijk 5144 EF<br>
+                    Netherlands</p>
+                <p><i class="fas fa-phone"></i><br>
+                +31 650 004 456</p>
+                <p><i class="fas fa-store"></i><br>
+                <strong>Our Opening Hours</strong></p>
+                <table class="col">
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><strong>Monday:</strong></td>
+                        <td></td>
+                        <td>1:00pm – 6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tuesday:</strong></td>
+                        <td></td>
+                        <td>8:00am – 6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wednesday:</strong></td>
+                        <td></td>
+                        <td>8:00am – 6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Friday:</strong></td>
+                        <td></td>
+                        <td>8:00am – 6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Saturday:</strong></td>
+                        <td></td>
+                        <td>8:00am – 6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sunday:</strong></td>
+                        <td></td>
+                        <td>Closed</td>
+                    </tr>
+                </table>
+                
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
