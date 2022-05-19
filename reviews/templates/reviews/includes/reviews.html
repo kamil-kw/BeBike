@@ -1,0 +1,61 @@
+{% block content %}
+{% load static %}
+    <!-- Review header -->
+<div class="container review-container mt-0 mb-5">
+    <div class="row mt-0">
+        <div class="col-12">
+            <div>
+                <h2>CUSTOMER REVIEWS</h2>
+            </div>
+            <div class="bs-example review-accordion">
+                <h2 class="mb-0">
+                    <button type="button" class="btn btn-black" data-toggle="collapse" data-target="#collapseOne">Customer Reviews</button>									
+                </h2>
+                <div class="accordion" id="accordionReview">
+                    <div class="card">
+                        <div id="collapseOne" class="collapse view-review" aria-labelledby="headingOne" data-parent="#accordionReview">
+                            <div class="card-body">
+                            {% if reviews %}
+                                {% for review in reviews %}
+                                    <span>Posted on: &nbsp;{{ review.review_date|date:"M d, Y" }}</span><br>
+                                    <p>{{ review.description }}</p>
+                                    <p>Review added by - <strong>{{ review.user }}</strong>
+                                    {% if request.user.is_authenticated %} 
+                                    {% if request.user|lower == review.user|lower %}
+                                        <span>
+                                        <a href="{% url 'edit_review' review.id %}" data-toggle="tooltip" title="Edit Review" data-placement="top" class="btn">
+                                            <i class="far fa-edit"></i>
+                                        </a>
+                                        </span>
+                                        <span>
+                                        <a href="{% url 'delete_review' review.id %}" data-toggle="tooltip" title="Delete Review" data-placement="top" class="btn">
+                                            <i class="far fa-trash-alt"></i>
+                                        </a>
+                                        </span>
+                                    {% endif %}
+                                {% endif %}
+                                </p>
+                                    <hr>
+                                    
+                                {% endfor %}
+                            {% else %}
+                                <p>No reviews avalibale for this product</p>
+                            {% endif %}   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="{% url 'add_review' product.id %}" class="btn btn-black rounded-0 mt-3">
+                        Add Your Review
+                </a>
+            </div> 
+{% endblock %}
+{% block postloadjs %}
+<script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+{% endblock %}
