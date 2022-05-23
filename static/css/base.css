@@ -87,6 +87,10 @@ body {
 	z-index: -1;
 }
 
+.banner-color {
+    background: #073B4C !important;;
+}
+
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
