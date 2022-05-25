@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<!-- Overlay -->
+<div class="overlay"></div>
+<div class="container footer-padding">
+    <div class="row">
+        <div class="col">
+            <hr>
+            <h2 class="logo-font mb-4">NEWSLETTER</h2>
+            <hr>
+        </div>
+    </div>
+</div>
+<div class="container mb-2">
+    <div class="row">
+        <div class="col text-center mt-3">
+            <h3 class="my-sm-2 my-md-3 my-lg-5 text-center font-weight-bold">Sign Up for our Newletter here</h3>
+            <form method="POST">
+                {% csrf_token %}
+                {{ form }}
+                <div class="py-3">
+                    <button class="btn btt" type="submit">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

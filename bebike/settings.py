@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-fr8@yz)sky=_yk80(qkf16ota(s3xxvw$=b%(3ppx1r=%mx3q)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://bebike.herokuapp.com/', 'localhost']
 
 
 # Application definition
@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'profiles',
     'contact',
     'reviews',
+    'newsletter',
 
 
     # Other
