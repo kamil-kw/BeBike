@@ -14,4 +14,4 @@ urlpatterns = [
     path('contact/', include('contact.urls')),
     path('review/', include('reviews.urls')),
     path('newsletter/', include('newsletter.urls')),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = "DEVELOPMENT" in os.environ
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['bebike.herokuapp.com', 'localhost']
 
@@ -220,8 +220,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Stripe
-FREE_DELIVERY_THRESHOLD = 150
-STANDARD_DELIVERY_PERCENTAGE = 10
+
 FREE_DELIVERY_THRESHOLD = 75
 STANDARD_DELIVERY_PERCENTAGE = 20
 STRIPE_CURRENCY = 'eur'
