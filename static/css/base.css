@@ -68,6 +68,11 @@ body {
 
 .right {
     float: right;
+    padding-right: 1%;
+}
+
+.left {
+    float: left;
 }
 
 .text-black {
@@ -94,6 +99,10 @@ body {
 	position: fixed;
 	background: white;
 	z-index: -1;
+}
+
+.index-style {
+    padding-top: 5%;
 }
 
 .footer-padding {
@@ -321,5 +330,9 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
+    }
+
+    .logo-font {
+        font-size: xx-large;
     }
 }

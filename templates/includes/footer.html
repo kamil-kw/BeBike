@@ -1,6 +1,12 @@
 <footer class="footer py-3 prussian-blue">
     <div class="container text-center text-white">
-        <span>Copyright &copy; Kamil Kwiatkowski</span>
-        <span class="right"><a href="{% url 'contact' %}">Contact</a></span>
+
+        <div class="left">Copyright &copy; Kamil Kwiatkowski</div>
+        <div class="right">
+            <a href="{% url 'contact' %}"><i class="fa fa-comments" aria-hidden="true"></i> Contact</a>
+        </div>
+        <div class="right">
+            <a href="{% url 'newsletter_signup' %}"><i class="fa fa-envelope" aria-hidden="true"></i> Subscribe</a>
+        </div>
     </div>
 </footer>
