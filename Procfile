@@ -1,1 +1,1 @@
-web: gunicorn bonsai_shop.wsgi:application
+web: gunicorn bebike.wsgi:application
