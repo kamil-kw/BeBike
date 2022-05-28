@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% load static %}
 
+<!-- {% load crispy_forms_tags %}
+{% crispy form form.helper %} -->
+
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -24,12 +27,13 @@
 <div class="container mb-2">
     <div class="row">
         <div class="col text-center mt-3">
-            <h3 class="my-sm-2 my-md-3 my-lg-5 text-center font-weight-bold">Sign Up for our Newletter here</h3>
+            <h3 class="my-sm-2 my-md-3 my-lg-5 text-center font-weight-bold">Unsubscribe from our Newletter</h3>
             <form method="POST">
                 {% csrf_token %}
-                {{ form }}
+                {{ form|crispy }}
+                <!-- {% crispy form %} -->
                 <div class="py-3">
-                    <button class="btn btn-black" type="submit">Subscribe</button>
+                    <button class="btn btn-black" type="submit">Unsubscribe</button>
                 </div>
             </form>
         </div>

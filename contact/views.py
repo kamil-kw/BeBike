@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse
 from .models import Contact
+
 from .forms import ContactForm
 from django.contrib import messages
 
