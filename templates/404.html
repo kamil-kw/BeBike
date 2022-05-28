@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+<!-- Handler template for Bad Request 400. -->
+<div class="overlay"></div>
+<div class="container footer-padding">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="logo-font mb-4">404</h2>
+            <h5 class="text-muted">Hmmmm, You've found a page that doesn't exist</h5>
+            <hr>
+        </div>
+    </div>
+    <a href="{% url 'home' %}" class="btn btn-secondary">Back to store</a>
+</div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- Handler template for Bad Request 400. -->
+<div class="page-wrap d-flex flex-row align-items-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12 text-center">
+        <span class="display-1 d-block">404
+        </span>
+        <div class="mb-4 lead">
+          <strong>500 Error</strong>
+          <h4>Houston, we have a problem</h4>
+        </div>
+        <a href="{% url 'home' %}" class="btn btn-secondary">Back to store
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
