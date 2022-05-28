@@ -33,10 +33,10 @@
                         <form action="{% url 'contact' %}" method="POST">
                             {% csrf_token %}
                             {% for field in form %}
-                                {{ field | as_crispy_field}}
+                            {{ field | as_crispy_field}}
                             {% endfor %}
-                            <input type="submit" value="Submit" class="btn btn-black">
-                        </form>
+                            <input type="submit" value="Submit" class="btn btn-custom">
+                          </form>
                     </div>
                 </div>
             </div>

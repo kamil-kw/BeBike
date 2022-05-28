@@ -1,14 +1,7 @@
-"""
-fsc_contact/views.py: views to display contact page.
-"""
-
-# - - - - - Django Imports - - - - - - - - -
 from django.contrib import messages
 from django.shortcuts import render, redirect, reverse
 from django.core.mail import send_mail
 from django.conf import settings
-
-# - - - - - Internal imports - - - - - - - - -
 
 from .forms import ContactForm
 
@@ -20,7 +13,7 @@ def contact(request):
         subject = request.POST['subject']
         message = request.POST['message']
         email = request.POST['email']
-        sender = "Contact request from" + " "+ str(email)
+        sender = "Contact request from" + " " + str(email)
         msg_mail = str(message) + ", " + str(sender)
         if form.is_valid():
             send_mail(
