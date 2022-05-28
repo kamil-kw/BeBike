@@ -10,8 +10,8 @@
 {% endblock %}
 
 {% block content %}
-    <div class="overlay products-color"></div>
-    <div class="container-fluid footer-padding">
+    <div class="overlay"></div>
+    <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3">
                 <h2 class="logo-font">Products</h2>
@@ -69,7 +69,7 @@
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
+                                            <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
                                                 <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
