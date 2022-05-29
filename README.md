@@ -86,7 +86,8 @@
 
 # **1.1. Project Description**
 
-One of the best benefits of living in Netherlands is to have access to over 37 000 km of bicycle paths, the only thing you need it to enjoy is a bike. Therefore I have created a bike shop website, where viewer can buy bike, as well as some basic parts and accessories. 
+One of the best benefits of living in Netherlands is to have access to over 37 000 km of bicycle paths, the only thing you need it to enjoy is a bike. Therefore I have created a bike shop website, where viewer can buy bike, as well as some basic parts and accessories.
+ 
 The website allows user to use search engine to find the most suitable product and by just one click add to the shopping trolley. The website is intuitive with simple design, so with this e-commerce website buying a bike is as simple as ordering a food delivery and who doesn’t like a good home delivery. 
 
 (#requirements)
@@ -110,8 +111,11 @@ PUT HERE WHAT WAS EXPECTED FROM THE PROJECT
 # **2. UX**
 
 Be Bike website is designed in modern coloristic with white background. The coloristic gamma used was XXX
+
 User can either choose from dropdown menu the product category and scroll through the range of products, or can use the search engine to find specific item. 
+
 To make a purchase user can pay with a credit card as checkout page features stripe payments.
+
 User can also be engaged by reviewing the products. 
 
 (#projectGoals)
@@ -125,22 +129,39 @@ One of the main goals of the project is to create a simple and intuitive store w
 (#userGoals)
 
 •	As a first-time visitor, I want to be able to view a list of products so that I can select some to purchase
+
 •	As a first-time visitor, I want to view a specific category of products so that I can quickly find products I'm interested in without having to search through all products.
+
 •	As a first-time visitor, I want to search for a product key by name or description so that I can find a specific product I'd like to purchase.
+
 •	As a first-time visitor, I want to view individual product details so that I can identify the price, description, product rating and product image 
+
 •	As a first-time visitor, I want to easily view the total of my purchases at any time so that I can avoid spending too much.
+
 •	As a first-time visitor, I want to sort the list of available products so that I can easily identify the best rated, best priced and categorically sorted products.
+
 •	As a first-time visitor, I want to sort a specific category of products so that I can find the best-priced or best-rated products in a specific category, or sort the products in that category by name.
+
 •	As a first-time visitor, I want to easily add items to my basket so that I can view all the products I would like to purchase before completing payment.
+
 •	As a first-time visitor, I want to easily remove items and update quantities from my basket so that I can remove any products I do not want before checking out.
+
 •	As a first-time visitor, I want to easily enter my payment information at the checkout page so that I can checkout with no hassles.
+
 •	As a first-time visitor, I want to feel safe and secure with my personal and payment infor-mation so that I can confidently provide the details to make a purchase.
+
 •	As a first-time visitor, I want to be able to checkout as a guest.
+
 Returning Visitor Goals
+
 •	As a returning visitor, I want to create an account.
+
 •	As a returning visitor, I want to update my user profile.
+
 •	As a returning visitor, I want to view my order history.
+
 •	As a returning visitor, I want to easily log in or logout so that I can access my personal ac-count information.
+
 •	As a returning visitor, I want to easily register for an account so that I can have a personal account and be able to view my profile.
 
 
@@ -150,10 +171,15 @@ Returning Visitor Goals
 The website should have a simple user interface, with the navigation to each section clear and con-cise.
 
 •	The menu is clear to read.
+
 •	The user interface is easy to navigate.
+
 •	The website is responsive on all devices.
+
 •	To be able to see a clear selection of products.
+
 •	Easily view the total of the basket before making any payment.
+
 •	The website provides responsive feedback for any actions, for example when adding a product to the basket
 
 
@@ -165,9 +191,13 @@ Based on the new trends in the website design, I have used the concept from 1980
 # **2.2. Structure** (#structure)
 
 It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
+
 •	Responsive on all device sizes
+
 •	Easy navigation through labelled buttons
+
 •	Footer at the bottom of the each page that links to the social media websites, newsletter subscription form and business pages.
+
 •	All elements will be consistent including font size, font family, colour scheme.
 
 
