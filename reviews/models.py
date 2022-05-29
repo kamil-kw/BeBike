@@ -1,3 +1,4 @@
+"""[models for reviews]"""
 from django.db import models
 
 from profiles.models import UserProfile

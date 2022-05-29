@@ -1,4 +1,6 @@
+"""[views for stor aplication]"""
 from django.shortcuts import render
+# pylint: disable=unused-argument
 
 
 def handler400(request, exception):

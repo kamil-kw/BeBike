@@ -1,9 +1,12 @@
+"""[forms products]"""
 from django import forms
 from .models import UserProfile
 
 
 class UserProfileForm(forms.ModelForm):
+    """[UserProfileForm]"""
     class Meta:
+        """[UserProfileForm meta]"""
         model = UserProfile
         exclude = ('user',)
 

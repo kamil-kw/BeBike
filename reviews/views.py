@@ -1,12 +1,12 @@
+"""[Views reviews]"""
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-
-from .models import Review
-from .forms import ReviewForm
-
 from products.models import Product
 from profiles.models import UserProfile
+from .models import Review
+from .forms import ReviewForm
+# pylint: disable=no-member
 
 
 @login_required

@@ -1,3 +1,4 @@
+"""[paths to bag]"""
 from django.urls import path
 from . import views
 

@@ -15,6 +15,7 @@
     * [**1.2.1 Main Technologies**](#maintech)
     * [**1.2.2 Mandatory Requirements**](#mandatory)
 
+<hr>
 
 [**2. UX**](#ux)
 * [**2.1. Strategy**](#strategy)
@@ -29,32 +30,40 @@
 * [**2.5. Icons**](#icons)
 * [**2.5. Data Base**](#dataBase)
 
+<hr>
+
 [**3. Agile Methodology**](#agile)
 * [**3.1. KANBAN**](#kanban)
+
+<hr>
 
 [**4. Existing Features**](#features)
 * [**4.1. Home page**](#home)
 * [**4.2. Navbar**](#navbar)
 * [**4.3. Footer**](#footer)
 * [**4.4. The carousel**](#carousel)
-* [**4.6. User authentication**](#newsletter)
-* [**4.6. User profile**](#newsletter)
-* [**4.6. Contact**](#contact)
-* [**4.6. Newsletter**](#newsletter)
-* [**4.6. Shop**](#shop)
-* [**4.6. Product list**](#list)
-* [**4.6. Shopping bag**](#bag)
-* [**4.6. Product view**](#view)
-* [**4.6. Icons**](#newsletter)
-* [**4.6. Buttons**](#newsletter)
+* [**4.5. User authentication**](#authentication)
+* [**4.6. User profile**](#userProflie)
+* [**4.7. Contact**](#contact)
+* [**4.8. Newsletter**](#newsletter)
+* [**4.9. Shop**](#shop)
+* [**4.10. Shopping bag**](#bag)
+* [**4.11. Product view**](#view)
+* [**4.12. Login Page**](#loginPage)
+* [**4.13. Logout Page**](#logoutPage)
+* [**4.14. Checkout Page**](#checkputPage)
+* [**4.15. Checkout Success Page**](#successCheckputPage)
+* [**4.16. Newsletter Subscribe Page**](#subscribePage)
+* [**4.17. Newsletter Subscribe Pag**](#unsubscribePage)
+
+<hr>
 
 [**5. Technologies Used**](#technologies)
 * [**5.1. Languages Used**](#languages)
-* [**5.2. Technologies and Programs Used:**](#techPrograms)
-* [**5.3. Frameworks Libraries**](#frameworks)
-* [**5.4. The carousel**](#carousel)
-* [**5.5. Home page**](#home)
-* [**5.6. Shop**](#shop)
+* [**5.2. Frameworks Libraries**](#frameworks)
+* [**5.3. Technologies and Programs Used:**](#techPrograms)
+
+<hr>
 
 [**6. Testing**](#testing)
 * [**6.1 Python - PEP8**](#pep)
@@ -64,19 +73,39 @@
 * [**6.5 Manual Testing**](#manualTesting)
 * [**6.6 Function tests**](#functionTest)
 
-[**5. Search Engine Optimalisation**](#development)
+<hr>
 
-[**5. Development Cycle**](#development)
+[**7. Search Engine Optimalisation**](#development)
 
-[**6. Deployment**](#deployment)
+<hr>
 
-[**7. End Product**](#endProduct)
+[**8. Marketing**](#marketing)
 
-[**8. Known Bugs**](#knownBugs)
-* [**8.1 Fixed bugs**](#fixedBugs)
-* [**8.1 Remaining Bugs**](#remainBugs)
+<hr>
 
-[**9. Credits**](#credits)
+[**9. Development Cycle**](#development)
+
+<hr>
+
+[**10. Social Media Business Page**](#development)
+
+<hr>
+
+[**11. Deployment**](#deployment)
+
+<hr>
+
+[**12. End Product**](#endProduct)
+
+<hr>
+
+[**13. Known Bugs**](#knownBugs)
+* [**13.1 Fixed bugs**](#fixedBugs)
+* [**13.1 Remaining Bugs**](#remainBugs)
+
+<hr>
+
+[**14. Credits**](#credits)
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -156,17 +185,17 @@ Register for an account |  | ✅
 # **2.1.3 User Expectations** (#userExpectations)
 
 The website should have a simple user interface, with the navigation to each section clear
-•	The menu is intuitive and clear to read.
+-	The menu is intuitive and clear to read.
 
-•	The user can navigate easily through an interface. 
+-	The user can navigate easily through an interface. 
 
-•	The website responsiveness is achieved on all devices. 
+-	The website responsiveness is achieved on all devices. 
 
-•	The user has a clear overview of all products/product groups. 
+-	The user has a clear overview of all products/product groups. 
 
-•	Before making a payment the total purchase price is displayed, and product quantities can be removed/ adjusted. 
+-	Before making a payment the total purchase price is displayed, and product quantities can be removed/ adjusted. 
 
-•	Website has a secure payment method, giving the user comfort feeling
+-	Website has a secure payment method, giving the user comfort feeling
 
 
 # **2.1.4 Trends of Modern Websites** (#trends)
@@ -178,9 +207,9 @@ Based on the new trends in the website design, I have used the concept from the 
 
 Responsiveness design has been included in this project, as users are using different devices (including mobiles, laptops/ PC, and tablets). This is to ensure user achieves the best experiences on their chosen device.
 
-•	User can easily navigate through labeled buttons 
+-	User can easily navigate through labeled buttons 
 
-•	All elements are consistent in font size, and color scheme. 
+-	All elements are consistent in font size, and color scheme. 
 
 
 # **2.3. Skeleton** (#skeleton)
@@ -489,115 +518,322 @@ ADD CANBAN BOARDS
 ![KANBAN Dashboard](images/readme_images/KANBAN.png)
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 [Back to Table Of Content](#tableOfContents)
 
 # **4. Existing Features** (#features)
 
-•	Responsive design
+-	Responsive design
 
-•	Navigation Menu
+-	Navigation Menu
 
-•	Postgress databases to store information and user login/profile information
+-	Postgress databases to store information and user login/profile information
 
-•	CRUD Functionality
+-	CRUD Functionality
 
-•	Filter list details functionality
+-	Filter list details functionality
 
-•	Login functionality
+-	Login functionality
 
-•	Logout functionality
+-	Logout functionality
 
-•	Register functionality
+-	Register functionality
 
 # **4.1. Home page** (#home)
 
-•	A carousel that displays contact newsletter and shop new options.
+-	A carousel that displays contact newsletter and shop now options.
 
-•	A shop now button that directs the user to the all products page where user can easily
+-	A shop now button that directs the user to the all products page where user can easily
 identify products they would like to purchase.
 
-•	A contact button that directs the user to the contact form where user can then 
+-	A contact button that directs the user to the contact form where user can then 
 contact with store team
 
 # **4.2. Navbar**(#navbar)
 
+-	Store name with link to home page.
+
+-	Search products bar.
+
+-	My Account dropdown list with user autentication, display content accordingly
+
+-	Product categories displayed to easy reach of content, changing to small icon once viewed on the small screen
 
 # **4.3. Footer**(#footer)
+
+-	Copy rights.
+
+-	Contact link to access page where user can contact with store crew.
+
+-	Newsletter link to access page where user can subscribe or unsubscribe to recive special offer
+
+
 # **4.4. The carousel**(#carousel)
-# **4.5. User authentication**(#newsletter)
-# **4.6. User profile**(#newsletter)
-# **4.7. Contact**(#contact)
-# **4.8. Newsletter**(#newsletter)
+
+-	A carousel that displays contact newsletter and shop now options.
+
+-	Shop now slide with message and button to product page
+
+-	Contact slide with message and button to contact page
+
+-	Newsletter slide with message and button to newsletter page
+
+# **4.5. User authentication** (#authentication)
+
+-	If user new than can register using register option in the My account
+
+-	If user is registered than can login using My account link
+
+# **4.6. User profile** (#userProflie)
+
+-	This page shows a form so the user can update their delivery details. Upon completing the form, all delivery details will be updated if the user proceeds to the checkout page again.
+
+-	Order history is also displayed, where the user can select the order number to view a previous order confirmation summary. An alert will also show prompting the user they are viewing a past order confirmation summary.
+
+# **4.7. Contact** (#contact)
+
+-	Where user can leave message to store crew using site form
+
+-	Form check if email include @ sign, to ensure store crew are able to return to user
+
+-	Contact details - if user want to visit store or use diferent form of contact
+
+# **4.8. Newsletter** (#newsletter)
+
+-	User can choose subscribe or unsubscribe, this will direct to correct page to newsletter
+
 # **4.9. Shop**(#shop)
-# **4.10. Product list**(#list)
-# **4.11. Shopping bag**(#bag)
-# **4.12. Product view**(#view)
-# **4.13. Buttons**(#newsletter)
+
+-	The user can access the product pages by selecting the product category from the navigation bar.
+
+-	 Filter using sort bar at the top right of the page,  user can filter by price, rating, name and category.
+
+-	Each product has an image, name of product, price, category and rating.
+
+-	The page also contains a back to top button, which the user can click to go to the top of the page.
+
+-	As a superuser, the admin can see the edit and delete buttons, allowing quick access to the product admin
+
+
+# **4.10. Shopping bag**(#bag)
+
+-	This page shows each product as a line item, displaying an image, name of the product, weight, SKU, price per item, the quantity selected, quantity selector to update and a subtotal for each item.
+
+-	When the quantity selector is at 1, the minus button is disabled.
+
+-	A pricing summary of the whole basket is also shown with the basket total, delivery fee and total.
+
+-	If the user has not met the free delivery threshold then an alert message is shown, prompting the user that they can qualify for free delivery if they spend more.
+
+# **4.11. Product view**(#view)
+
+-	The product details will showcase an image, name of the product, short description, price, weight selector(if the product has different weights), category and rating, quantity selector, keep shopping button and an add to basket button.
+
+-	As a superuser, the admin can see the edit and delete buttons, allowing quick access to the product admin.
+
+-	The quantity selector starts at 1. When the quantity is at 1, the minus button is disabled.
+
+-	When adding a product to the basket, the user will be prompted with a success message confirming the product has been added.
+
+
+# **4.12. Login Page**(#loginPage)
+
+-	A login form that requires the user to enter the email address and password that they used when signing up to the site.
+
+-	The user can only log in once they have activated their account via an email received after signing up.
+
+-	A message to prompt the user that if an account has not been created they can click the signup hyperlink to be redirected to the signup page.
+
+-	If the user enters in the wrong credentials, a message is displayed to the user.
+
+-	Once the user has successfully logged in, they will be redirected to the home page. A success message will show to confirm the login has been successful.
+
+
+# **4.13. Logout Page**(#logoutPage)
+
+-	When clicking logout from the navigation bar, the user is redirected to a sign-out page to confirm their action.
+
+# **4.14. Checkout Page**(#checkputPage)
+-	A checkout form, prompts the user to enter their delivery details with Stripe integration.
+
+-	A checkbox for the user to confirm if they would like to save their details for next time. This only saves delivery details and not the card details.
+
+-	A summary of the user's order is also shown, the user can then be sure they are making the correct purchase before continuing with the checkout process.
+
+-	A message is shown just below the complete order button to warn the user that they will be charged a certain amount on their card.
+
+# **4.15. Checkout Success Page**(#successCheckputPage)
+
+-	This page shows a summary of their order, with an order number.
+
+-	Once the user is on this page, an email will also be triggered to send out an order confirmation email.
+
+# **4.16. Newsletter Subscribe Page**(#subscribePage)
+
+-	A one-field form for the user to enter their email to subscribe to the newsletter.
+
+-	Once the user has successfully subscribed to the newsletter, they will be redirected to the home page. A success message will show up confirming the user has successfully subscribed to the newsletter.
+
+-	If the user has already subscribed, an error message will show up.
+
+# **4.17. Newsletter Subscribe Page**(#unsubscribePage)
+
+-	A one-field form for the user to enter their email to unsubscribe from the newsletter.
+
+-   Once the user has successfully unsubscribed from the newsletter, they will be redirected to the home page. A success message will show up confirming the user has successfully unsubscribed to the newsletter.
+
+-   If the user enters an email address that is not subscribed to the newsletter, a message will be displayed to the user.
+
+
+
+# **5. Technologies Used** (#technologies)
+
+# **5.1. Languages Used** (#languages)
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML)
+    -   The project uses HyperText Markup Language.
+-   [CSS3](https://en.wikipedia.org/wiki/CSS)
+    -   The project uses Cascading Style Sheets.
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    -   The project uses JavaScript.
+-   [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+    -   The project uses Python.
+    -   asgiref==3.5.1
+    -   backports.zoneinfo==0.2.1
+    -   boto3==1.23.9
+    -   botocore==1.26.9
+    -   dj-database-url==0.5.0
+    -   Django==3.2
+    -   django-allauth==0.41.0
+    -   django-countries==7.2.1
+    -   django-crispy-forms==1.14.0
+    -   django-formtools==2.3
+    -   django-storages==1.12.3
+    -   gunicorn==20.1.0
+    -   jmespath==1.0.0
+    -   oauthlib==3.2.0
+    -   Pillow==9.1.0
+    -   psycopg2-binary==2.9.3
+    -   python3-openid==3.2.0
+    -   pytz==2022.1
+    -   requests-oauthlib==1.3.1
+    -   s3transfer==0.5.2
+    -   sqlparse==0.4.2
+    -   stripe==2.72.0
+
+# **5.2. Frameworks Libraries** (#frameworks)
+-   [Django](https://www.djangoproject.com/)
+    -   The project uses Django as the main framework.
+-   [Boostrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+
+# **5.3. Frameworks Libraries** (#frameworks)
+
+-   [Sqlite](https://www.sqlite.org/index.html)
+    -   The project uses sqlite as a local enviromental database
+-   [PostgreSQL](https://www.postgresql.org/)
+    -   The project uses PostgreSQL as a deployment database
+
+
+# **5.4. Technologies and Programs Used:** (#techPrograms)
+
+-   [AWS](https://aws.amazon.com/)
+    -   The project uses Amazon Web Services to host all static and media files.
+-   [Heroku](https://www.heroku.com/)
+    -   The project is deployed and hosted by Heroku.
+-   [Balsamiq](https://balsamiq.com/)
+    -   Balsamiq was used to create the wireframes during the design process.
+-   [Google Fonts](https://fonts.google.com/)
+    -   Google fonts were used to import the "Be Vietnam Pro" font into the style.css file which is used on all pages throughout the project.
+-   [GitHub](https://github.com/)
+    -   GitHub was used to store the project's code after being pushed from Git
+-   [Gitpod](https://www.gitpod.io/)
+    -   The project uses Gitpod.
+-   [Chrome](https://www.google.com/intl/en_uk/chrome/)
+    -   The project uses Chrome to debug and test the source code using HTML5.
+-   [W3School](https://www.w3schools.com/)
+    - For problem solving and code searching
+-   [Stack Overflow](https://stackoverflow.com/)
+    - For problem solving and code searching
+-   [PEP8 validator](http://pep8online.com/)
+    - For checking python convention
+-   [Font Awesome](https://fontawesome.com/)
+    - Special Icons for links
+-   [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)
+    - Multi Device Website Mockup Generator was used to create the Mock up image in this README
 
 
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# **6. Testing** (#testing)
+
+# **6.1 Python - PEP8** (#pep)
+
+# **6.2 Html - W3C** (#wc3html)
+
+# **6.3 CSS - W3C** (#wc3css)
+
+# **6.4 JSHint** (#jshint)
+
+# **6.5 Manual Testing** (#manualTesting)
+
+# **6.6 Function tests** (#functionTest)
+
+<hr>
+
+# **7. Search Engine Optimalisation**](#development)
+
+<hr>
+
+# **8. Marketing**](#marketing)
+
+<hr>
+
+# **9. Development Cycle**](#development)
+
+<hr>
+
+# **10. Social Media Business Page**](#development)
+
+<hr>
+
+# **11. Deployment**](#deployment)
+
+<hr>
+
+# **12. End Product**](#endProduct)
+
+<hr>
+
+# **13. Known Bugs**](#knownBugs)
+# ***13.1 Fixed bugs**](#fixedBugs)
+# **13.1 Remaining Bugs**](#remainBugs)
+
+<hr>
+
+# **14. Credits**](#credits)
 
 
-
-<a name="skeleton"></a>
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # **1.3. Skeleton**
 
 ### **Diagram**
-<hr>
-
-### **Diagram signup-login-logout**
-<hr>
-
-![Diagram signup-login-logout](images/readme_images/flow_login_logout.png)
-
-### **Diagram CRUD**
-<hr>
-
-![Diagram CRUD](images/readme_images/Flow_CRUD.png)
-
-### **Diagram filter**
-<hr>
-
-![Diagram filter](images/readme_images/flow_filter.png)
-
-
-[Back to Table Of Content](#tableOfContents)
-
-<a name="colorScheme"></a>
-
-# **1.4. Color Scheme**
-
-[Back to Table Of Content](#tableOfContents)
-
-<a name="features"></a>
-
-
-<a name="dataBase"></a>
 
 # **1.5. Database Design**
-
-### **Database structure**
-<hr>
-
-![Database Design](images/readme_images/testing/database.png)
 
 ### **Security**
 <hr>
 
 
-
-
-[Back to Table Of Content](#tableOfContents)
-
 # **2. Features**
-
-[Back to Table Of Content](#tableOfContents)
-
-<a name="technologies"></a>
 
 
 
@@ -607,63 +843,6 @@ contact with store team
 
 ![Hero image](images/readme_images/importance_difficulty.png)
 
-# **3. Technologies Used**
-
-During creation journey I did use:
-
-* [Chrome](https://www.google.com/intl/en_uk/chrome/)
-    * Chrome dev tool used to debug and test code while building
-* [Github](http://github.com)
-    * For storing project
-* [Gitpod](https://gitpod.io/workspaces)
-    * Code written in gitpod workspace
-* [W3School](https://www.w3schools.com/)
-    * For problem solving and code searching
-* [Stack Overflow](https://stackoverflow.com/)
-    * For problem solving and code searching
-* [PEP8 validator](http://pep8online.com/)
-    * For checking python convention
-* [Heroku](https://id.heroku.com/login)
-    * To deploy project into live environment
-* [Cloudinary](https://cloudinary.com/)
-    * To store static files
-* [Markdown](https://en.wikipedia.org/wiki/Markdown)
-    * To create project documentation
-* [Python OS](https://getbootstrap.com/)
-    * asgiref==3.5.0
-    * backports.zoneinfo==0.2.1
-    * cloudinary==1.28.1
-    * coverage==6.3.1
-    * dj-database-url==0.5.0
-    * dj3-cloudinary-storage==0.0.6
-    * Django==3.2
-    * django-allauth==0.48.0
-    * django-bootstrap-datepicker-plus==4.0.0
-    * django-filter==21.1
-    * gunicorn==20.1.0
-    * oauthlib==3.2.0
-    * psycopg2==2.9.3
-    * PyJWT==2.3.0
-    * python3-openid==3.2.0
-    * pytz==2021.3
-    * requests-oauthlib==1.3.1
-    * sqlparse==0.4.2
-* [Django](https://docs.djangoproject.com/en/4.0/)
-    * This project was created using the Django framework, the back-end logic and the means to run/view the Website.
-* [Bootstrap](https://docs.python.org/3/library/os.html)
-    * To provide styles to page
-* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
-    * To build wireframes
-* [Font Awesome](https://fontawesome.com/)
-    * Special Icons for links
-* [Google Fonts](https://fonts.google.com/)
-    * Google fonts are used in the project to import the Merienda font for the nav title.
-* [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)
-    * Multi Device Website Mockup Generator was used to create the Mock up image in this README
-
-[Back to Table Of Content](#tableOfContents)
-
-<a name="testing"></a>
 
 # **4. Testing**
 
@@ -689,154 +868,10 @@ Code pass W3C CSS without errors
 
 <a name="manualTesting"></a>
 
-## **4.2 Manual testing**
-
-### **Sign Up test**
-<hr>
-
-### **Sign up Page wrong user or password**
-
-![Landing page menu](images/readme_images/testing/signup_wrong_password.png)
-
-### **Sign up Page email exist**
-
-![Login Page email exist](images/readme_images/testing/register_user_mail_exist.png)
-
-### **Sign up Page user exist**
-
-![Sign up Page user exist](images/readme_images/testing/register_user_exist.png)
-
-### **Sign up Page password too short**
-
-![Sign up Page password too short](images/readme_images/testing/register_password_short.png)
-
-[Back to Table Of Content](#tableOfContents)
-
-### **Login test**
-<hr>
-
-### **Login Page wrong user or password**
-
-![Login Page wrong user or password](images/readme_images/testing/login_page_wrong_login.png)
-
-![Project List](images/readme_images/testing/project_list.png)
-
-[Back to Table Of Content](#tableOfContents)
-### **Project List**
-<hr>
-
-### **Add Project**
-
-![Add Project](images/readme_images/testing/add_project.png)
-
-### **Update Project**
-
-![Update Project](images/readme_images/testing/update_project.png)
-
-### **Delete Project**
-
-![Delete Project](images/readme_images/testing/delete_project.png)
-
-[Back to Table Of Content](#tableOfContents)
-### **Task List**
-<hr>
-
-### **Toggle button**
-
-![Login Page wrong user or password](images/readme_images/testing/toggle_task.png)
-
-### **Edit Task**
-
-![Edit Task](images/readme_images/testing/edit_task.png)
-
-### **Pagination**
-
-![Edit Task](images/readme_images/testing/pagination_page_1.png)
-
-![Edit Task](images/readme_images/testing/pagination_page_2.png)
-
-[Back to Table Of Content](#tableOfContents)
-### **Filter Area**
-<hr>
-
-### **Done dropdown**
-
-![Edit Task](images/readme_images/testing/filter_dropdown.png)
-
-### **Project Filter**
-
-![Project Filter](images/readme_images/testing/filter_project.png)
-
-### **Date Range Filter**
-
-![Date Range Filter](images/readme_images/testing/filter_date_range.png)
-
-### **Owner Filter**
-
-![Owner Filter](images/readme_images/testing/filter_owner.png)
-
-[Back to Table Of Content](#tableOfContents)
-### **Link opener**
-<hr>
-
-### **Link Facebook**
-
-![Link Facebook](images/readme_images/testing/link_facebook.png)
-
-### **Link Twitter**
-
-![Link Facebook](images/readme_images/testing/link_twitter.png)
-
-### **Link Youtube**
-
-![Link Facebook](images/readme_images/testing/link_youtube.png)
-
-### **Link LinkedIn**
-
-![Link Facebook](images/readme_images/testing/link_linkedin.png)
-
-### **Link Dribbble**
-
-![Link Facebook](images/readme_images/testing/link_dribbble.png)
-
-
-[Back to Table Of Content](#tableOfContents)
-
-
-<a name="functionTest"></a>
-
-## **4.3 Function tests**
-
-Due to time constraints, the fully automatic test wasn't completed
-
-### **Automatic Test**
-<hr>
-
-### **First Automatic Test**
-
-![First Automatic Test](images/readme_images/testing/first_test.png)
-
-### **Second Automatic Test**
-* Due to time limits additional tests are not implemented 
-
-![Second Automatic Test](images/readme_images/testing/test_automatic.png)
-
-
-[Back to Table Of Content](#tableOfContents)
-
-<a name="development"></a>
-
 
 
 # **5. Development Cycle**
 
-
-
-
-
-[Back to Table Of Content](#tableOfContents)
-
-<a name="deployment"></a>
 
 # **6. Deployment**
 
@@ -879,13 +914,6 @@ Due to time constraints, the fully automatic test wasn't completed
 6. Seve in the requirements file by: 
     * pip3 freeze > requirements.txt
 
-
-
-[Deployed version](TBA)
-
-[Back to Table Of Content](#tableOfContents)
-
-<a name="endProduct"></a>
 
 # **7. End Product**
 
