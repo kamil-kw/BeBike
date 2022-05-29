@@ -1,4 +1,4 @@
-![Hero image](images/readme_images/hero_responsive.png)
+![Hero image](Readme_documents/mockup/hero_responsive.png)
 
 # Be Bike e-commerce store
 
@@ -501,12 +501,12 @@ The issues were then closed automatically when the pull request was linked to th
 ### **Kanban Initial**
 <hr>
 
-![Kanban Initial](Readme_documents/Kanban/kanban_initial.png)
+![Kanban Initial](Readme_documents/kanban/kanban_initial.png)
 
 ### **Kanban Mid process**
 <hr>
 
-![Kanban Mid process](Readme_documents/Kanban/kanban_mid_process.png)
+![Kanban Mid process](Readme_documents/kanban/kanban_mid_process.png)
 
 ### **Kanban Mid process**
 <hr>
@@ -763,18 +763,15 @@ contact with store team
     - Multi Device Website Mockup Generator was used to create the Mock up image in this README
 
 
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 # **6. Testing** (#testing)
 
 # **6.1 Python - PEP8** (#pep)
 
+Issues with missig dockstring, too long lines are fixed using pylint builded in the gitpod therefore no issues left for PEP8
+
 # **6.2 Html - W3C** (#wc3html)
+
+
 
 # **6.3 CSS - W3C** (#wc3css)
 
@@ -787,20 +784,57 @@ contact with store team
 <hr>
 
 # **7. Search Engine Optimalisation**](#development)
+To improve the search engine optimisation (SEO) of the site I:
 
+- Added keywords in a meta tag to my base.html. The keywords were researched using [WordTracker](https://www.wordtracker.com/), there are a number of short-tail and long-tail keywords.
+
+- This is a list of all the keywords I came up with, 
+
+- I ended up using these:
+
+Key Word             | Average search over last 12 months                  | Organic competition    | In Anchor And Title |
+-------------------- | --------------------------------------------------- | ---------------------- | ------------------- |
+bike shop near me | 731,667 | 5.63 | 5 |
+bike shop | 570,750 | 24.03 | 3,999 |
+mountain bike | 419,583 | 10.69 | 96 |
+bicycle | 281,750 | 27.68 | 7,664 |
+electric bike | 265,667 | 45.95 | 79,118 |
+bike | 180,575 | 64.11 | 366,562 |
+e bike | 119,640 | 35.98 | 25,638 |
+bicycle shop | 92,625 | 16.8 | 768 |
+electric bicycle | 70,083 | 20.87 | 2,086 |
+cycle | 42,750 | 70.77 | 577.838 |
+e bikes for sale | 23,850 | 6.54 | 10 |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+
+
+I chose these keywords because they didn't have incredibly high volume and competition.
 <hr>
 
 # **8. Marketing**](#marketing)
 
+For my marketing strategies, I decided to go with content marketing, Social media and email marketing root. As these are free options and very effective for an E-commerce store.
+
+- Social media - Using these platforms will help build and interact with customers to build relationships and loyalty. This also helps build the brand. Followers will help share the business posts and in result gain more traction with other people. The same content can be across all social media platforms.
+
+- Email marketing - Using email marking via a newsletter will be beneficial as it is a free source of marketing. Those who are subscribed are more likely to convert into paying customers. This will increase sales and returning customers as I can provide discount codes and other special offers. A good pro is that the business has total control over the design of the emails.
 <hr>
 
-# **9. Development Cycle**](#development)
+# **9. Social Media Business Page**](#development)
+
+The business will use social media as a platform to promote the business will be [facebook business page](https://www.facebook.com/BeBike-Store-100847359323133)
+
+![facebook_business_page](documentation_assets/images/facebook_business_page.png)
 
 <hr>
 
-# **10. Social Media Business Page**](#development)
-
-<hr>
+# **10. Development Cycle**](#development)
 
 # **11. Deployment**](#deployment)
 
