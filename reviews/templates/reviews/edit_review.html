@@ -27,8 +27,8 @@
                 {{ form | crispy }}
                 <!--buttons to update and cancel -->
                 <div class="text-center">
-                    <button class="btn rounded-0 btn-dark mt-3 mr-3" type="submit">Update</button>
-                    <a href="{% url 'product_detail' product.id %}" class="btn btn-outline-red btn-danger mt-3 ml-3">Cancel</a>
+                    <button class="btn rounded-0 btn-dark mt-3 mr-3" type="submit" aria-label="update">Update</button>
+                    <a href="{% url 'product_detail' product.id %}" class="btn btn-outline-red btn-danger mt-3 ml-3" aria-label="cancel">Cancel</a>
                 </div>
             </form>
         </div>

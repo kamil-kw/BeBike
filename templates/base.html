@@ -51,7 +51,7 @@
                     <div class="input-group w-100">
                         <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
                         <div class="input-group-append">
-                            <button class="form-control btn prussian-blue border border-black rounded-0 text-white" type="submit">
+                            <button class="form-control btn prussian-blue border border-black rounded-0 text-white" type="submit" aria-label="search">
                                 <span class="icon">
                                     <i class="fas fa-search"></i>
                                 </span>
@@ -64,7 +64,7 @@
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <!-- my account menu -->
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="My Account">
                             <div class="text-center">
                                 <div><i class="fa fa-user-circle-o fa-lg"></i></div>
                                 <p class="my-0">My Account</p>
@@ -73,13 +73,13 @@
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
-                                    <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                                    <a href="{% url 'add_product' %}" class="dropdown-item" aria-label="Product Management">Product Management</a>
                                 {% endif %}
-                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                                <a href="{% url 'profile' %}" class="dropdown-item" aria-label="My Profile">My Profile</a>
+                                <a href="{% url 'account_logout' %}" class="dropdown-item" aria-label="Logout">Logout</a>
                             {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                                <a href="{% url 'account_signup' %}" class="dropdown-item" aria-label="Register">Register</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item" aria-label="Login">Login</a>
                             {% endif %}
                         </div>
                     </li>
@@ -102,13 +102,15 @@
             </div>
         </div>
         <div class="row bg-white">
-            <nav class="navbar navbar-expand-lg navbar-light w-100">
+            <ul></ul>
+            <nav class="navbar navbar-expand-lg navbar-light w-100" aria-label="Navigation bar">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 {% include 'includes/mobile-top-header.html' %}
                 {% include 'includes/main-nav.html' %}
             </nav>
+            </ul>
         </div>
         <!-- free delivery banner -->
         <div id="delivery-banner" class="row text-center">

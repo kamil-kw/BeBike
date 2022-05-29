@@ -23,12 +23,12 @@
                                     {% if request.user.is_authenticated %} 
                                     {% if request.user|lower == review.user|lower %}
                                         <span>
-                                        <a href="{% url 'edit_review' review.id %}" data-toggle="tooltip" title="Edit Review" data-placement="top" class="btn">
+                                        <a href="{% url 'edit_review' review.id %}" data-toggle="tooltip" title="Edit Review" data-placement="top" class="btn" aria-label="edit review">
                                             <i class="far fa-edit"></i>
                                         </a>
                                         </span>
                                         <span>
-                                        <a href="{% url 'delete_review' review.id %}" data-toggle="tooltip" title="Delete Review" data-placement="top" class="btn">
+                                        <a href="{% url 'delete_review' review.id %}" data-toggle="tooltip" title="Delete Review" data-placement="top" class="btn" aria-label="delete  review">
                                             <i class="far fa-trash-alt"></i>
                                         </a>
                                         </span>
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div>
-                <a href="{% url 'add_review' product.id %}" class="btn btn-black rounded-0 mt-3">
+                <a href="{% url 'add_review' product.id %}" class="btn btn-black rounded-0 mt-3" aria-label="add review">
                         Add Your Review
                 </a>
             </div>

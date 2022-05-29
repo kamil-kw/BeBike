@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'dd')
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEVELOPMENT = os.environ.get('DEVELOPMENT', False)
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['bebike.herokuapp.com', 'localhost']
 
