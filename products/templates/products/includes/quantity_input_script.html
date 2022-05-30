@@ -5,6 +5,7 @@
     * If no size is passed to the function, the parameter will have a value of undefined by default,
     * which prevents any errors 
     */
+   /*jshint esversion: 6 */
     function handleEnableDisable(itemId, size) {
         if (size) {
             var currentValue = parseInt($(`.size_${itemId}_${size}`).val());

@@ -771,15 +771,40 @@ Issues with missig dockstring, too long lines are fixed using pylint builded in 
 
 # **6.2 Html - W3C** (#wc3html)
 
+# **Error list W3C html**
+
+![Error list W3C html](/workspace/BeBike/readme_documents/testing/w3_html_errors.png)
+
+1, 2, 5 Closed ```li``` tag in ```ul``` tag to follow good practice method
+
+3, 4 id changed to user-options-base to remove conflict
+
+7 The type attribute removed from each script including ```type="text/javascript"
+
+# **Pass W3C html**
+
+![Pass W3C html](readme_documents/testing/w3_html_no_errors.png)
+
 Code pass W3C HTML without errors
 
 # **6.3 CSS - W3C** (#wc3css)
+
+# **Pass W3C CSS**
+
+![Pass W3C css](readme_documents/testing/w3_css_result.png)
 
 Code pass W3C CSS without errors
 
 # **6.4 JSHint** (#jshint)
 
-Code pass JShint without errors
+# **bag script**
+
+![bag script](readme_documents/testing/bag_script.png)
+
+1, 2, semi colon added
+3, ```/*jshint esversion: 6 */``` added to code
+
+Other Code pass JShint without errors
 
 # **6.5 Manual Testing** (#manualTesting)
 

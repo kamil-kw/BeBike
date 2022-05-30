@@ -75,6 +75,10 @@ body {
     color: white;
 }
 
+li {
+    list-style: none;
+}
+
 .right {
     float: right;
     padding-right: 1%;
