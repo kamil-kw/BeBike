@@ -856,11 +856,28 @@ Other Code pass JShint without errors
 
 # **Add products to database**
 
-![My account login admin](readme_documents/testing/product_add.gif)
+![My account login admin](readme_documents/testing/adding_product_admin.gif)
 
 # **All products add to bag**
 
 ![My account login admin](readme_documents/testing/product_add.gif)
+
+# **Add review**
+
+![Add review](readme_documents/testing/product_add.gif)
+
+
+# **6.5.1 Checkout payment**
+
+![Checkout payment](readme_documents/testing/checkout.gif)
+
+# **6.5.1 Contact Form**
+
+![Contact Form](readme_documents/testing/contact.gif)
+
+# **6.5.1 Newsletter subscribe and unsubscribe**
+
+![Newsletter subscribe and unsubscribe](readme_documents/testing/newsletter.gif)
 
 # **6.6 Function tests** (#functionTest)
 

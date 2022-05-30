@@ -2,12 +2,10 @@
 # pylint: disable=no-member, broad-except
 import json
 import time
-
 from django.http import HttpResponse
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.conf import settings
-
 from products.models import Product
 from profiles.models import UserProfile
 from .models import Order, OrderLineItem
@@ -59,12 +57,10 @@ class StripeWH_Handler:
         grand_total = round(intent.charges.data[0].amount / 100, 2)
 
         # Clean data in the shipping details
-        # replace any empty strings with value None
-        # stripe will store them as blank strings
-        # we want Null value in database
         for field, value in shipping_details.address.items():
             if value == "":
                 shipping_details.address[field] = None
+
         # Update profile information if save_info was checked
         profile = None
         username = intent.metadata.username
@@ -115,9 +111,9 @@ class StripeWH_Handler:
             # calls the private method created above
             self._send_confirmation_email(order)
             return HttpResponse(
-                    content=f'Webhook received: {event["type"]} |\
-                              SUCCESS: verified order already in database',
-                    status=200)
+                content=(f'Webhook received: {event["type"]} | SUCCESS: '
+                         'Verified order already in database'),
+                status=200)
         else:
             # this is when the order form fails to be submited
             # the webhook creates a new order from the data from stripe
@@ -168,8 +164,8 @@ class StripeWH_Handler:
         # calls send confirmation email method
         self._send_confirmation_email(order)
         return HttpResponse(
-            content=f'Webhook received: {event["type"]} |\
-                     SUCCESS: Created order in webhook',
+            content=(f'Webhook received: {event["type"]} | SUCCESS: '
+                     'Created order in webhook'),
             status=200)
 
     def handle_payment_intent_payment_failed(self, event):
