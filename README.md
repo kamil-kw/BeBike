@@ -846,10 +846,21 @@ Other Code pass JShint without errors
 
 # **My account login logout user**
 
-![My account register](readme_documents/testing/login_out.gif)
+![My account login logout user](readme_documents/testing/login_out.gif)
 
+# **My account login admin**
 
+![My account login admin](readme_documents/testing/login_admin.gif)
 
+# **6.5.1 Products**
+
+# **Add products to database**
+
+![My account login admin](readme_documents/testing/product_add.gif)
+
+# **All products add to bag**
+
+![My account login admin](readme_documents/testing/product_add.gif)
 
 # **6.6 Function tests** (#functionTest)
 
