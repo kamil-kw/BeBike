@@ -838,6 +838,19 @@ Other Code pass JShint without errors
 
 ![Home responsivenes](readme_documents/testing/home_responsivenes.gif)
 
+# **6.5.1 My account**
+
+# **My account register**
+
+![My account register](readme_documents/testing/register.gif)
+
+# **My account login logout user**
+
+![My account register](readme_documents/testing/login_out.gif)
+
+
+
+
 # **6.6 Function tests** (#functionTest)
 
 <hr>
