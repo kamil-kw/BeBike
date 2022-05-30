@@ -13,7 +13,6 @@
 * [**1.1. Project Description**](#description)
 * [**1.2 Project Requirements**](#requirements)
     * [**1.2.1 Main Technologies**](#maintech)
-    * [**1.2.2 Mandatory Requirements**](#mandatory)
 
 <hr>
 
@@ -25,7 +24,7 @@
     * [**2.1.4 Trends of Modern Websites**](#trends)
 * [**2.2. Structure**](#structure)
 * [**2.3. Skeleton**](#skeleton)
-* [**2.4. Colour Scheme**](#colorScheme)
+* [**2.4. Colour Scheme**](#colourScheme)
 * [**2.4. Typography**](#colorScheme)
 * [**2.5. Icons**](#icons)
 * [**2.5. Data Base**](#dataBase)
@@ -60,22 +59,43 @@
 
 [**5. Technologies Used**](#technologies)
 * [**5.1. Languages Used**](#languages)
-* [**5.2. Frameworks Libraries**](#frameworks)
-* [**5.3. Technologies and Programs Used:**](#techPrograms)
+* [**5.2. Frameworks**](#frameworks)
+* [**5.3. Database**](#databasesUsed)
+* [**5.4. Technologies and Programs Used:**](#techPrograms)
+
 
 <hr>
 
 [**6. Testing**](#testing)
-* [**6.1 Python - PEP8**](#pep)
-* [**6.2 Html - W3C**](#wc3html)
-* [**6.3 CSS - W3C**](#wc3css)
-* [**6.4 JSHint**](#jshint)
-* [**6.5 Manual Testing**](#manualTesting)
-* [**6.6 Function tests**](#functionTest)
+* [**6.1 Python - PEP8**](#testing)
+* [**6.2 Html - W3C**](#testing)
+* [**6.3 CSS - W3C**](#testing)
+* [**6.4 JSHint**](#testing)
+* [**6.5 Manual Testing**](#testing)
+    * [**6.5.1 Home page**](#testing)
+        *   Carousel
+        *   Buttons caurusel
+        *   Navbar
+        *   Footer
+        *   Home responsivenes
+    * [**6.5.2 My account**](#testing)
+        *   My account register
+        *   My account login logout user
+        *   My account login admin
+
+    * [**6.5.3 Products**](#testing)
+        *   Add products to database
+        *   All products add to bag
+        *   Add review
+        *   Add product responsivnes
+        *   Product view responsivnes
+    * [**6.5.4 Checkout payment**](#testing)
+    * [**6.5.5 Contact Form**](#testing)
+    * [**6.5.6 Newsletter subscribe and unsubscribe**](#testing)
 
 <hr>
 
-[**7. Search Engine Optimalisation**](#development)
+[**7. Search Engine Optimalisation**](#seo)
 
 <hr>
 
@@ -83,11 +103,7 @@
 
 <hr>
 
-[**9. Development Cycle**](#development)
-
-<hr>
-
-[**10. Social Media Business Page**](#development)
+[**10. Social Media Business Page**](#social)
 
 <hr>
 
@@ -107,6 +123,13 @@
 
 [**14. Credits**](#credits)
 
+<hr>
+
+[**15. Acknowledgements**](#acknowledgements)
+
+<hr>
+
+
 [Back to Table Of Content](#tableOfContents)
 
 <a name="overviev"></a>
@@ -121,21 +144,22 @@ One of the best benefits of living in the Netherlands is having access to over 3
 
 The website allows users to use a search engine to find the most suitable product and with just one click add to the shopping trolley. The website is intuitive with a simple design, so with this e-commerce website buying a bike is as simple as ordering food delivery and who doesn’t like good home delivery.
 
-
-
-(#requirements)
+<a name="requirements"></a>
 
 # **1.2 Project Requirements**
 
 
-PUT HERE WHAT WAS EXPECTED FROM THE PROJECT
+# **1.2.1 Main Technologies**](#maintech)
 
-    * [**1.2.1 Main Technologies**](#maintech)
+As per project technologies scope for this project 
 
-    * [**1.2.2 Mandatory Requirements**](#mandatory)
+-   HTML, CSS, JavaScript, Python+Django
 
+-   Relational database MySQL or Postgres
 
+-   Stripe payments to handle payments
 
+-   Additional libraries
 
 
 
@@ -152,11 +176,13 @@ To make a purchase users can pay with a credit card as the checkout page feature
 User can also be engaged by reviewing the products.
 
 
-(#projectGoals)
+<a name="projectGoals"></a>
 
 # **2.1.1 Project Goals**
 
 My goal was to create a simple and intuitive store, where customers can purchase bikes and bike related items. Website has a simple design, allowing user to navigate easily through it, by doing those customers can focus on the content, rather than trying to find items on the page.
+
+<a name="userGoals"></a>
 
 # **2.1.2 User Goals**
 
@@ -182,9 +208,9 @@ View order history |  | ✅
 Easily log in and log out |  | ✅
 Register for an account |  | ✅
 
+<a name="userExpectations"></a>
 
-
-# **2.1.3 User Expectations** (#userExpectations)
+# **2.1.3 User Expectations**
 
 The website should have a simple user interface, with the navigation to each section clear
 -	The menu is intuitive and clear to read.
@@ -199,13 +225,15 @@ The website should have a simple user interface, with the navigation to each sec
 
 -	Website has a secure payment method, giving the user comfort feeling
 
+<a name="trends"></a>
 
-# **2.1.4 Trends of Modern Websites** (#trends)
+# **2.1.4 Trends of Modern Websites**
 
 Based on the new trends in the website design, I have used the concept from the 1980s – Memphis design, which in this case was making the main page design simultaneously more colour, approachable and adventurous.  
 
+<a name="structure"></a>
 
-# **2.2. Structure** (#structure)
+# **2.2. Structure**
 
 Responsiveness design has been included in this project, as users are using different devices (including mobiles, laptops/ PC, and tablets). This is to ensure user achieves the best experiences on their chosen device.
 
@@ -213,10 +241,11 @@ Responsiveness design has been included in this project, as users are using diff
 
 -	All elements are consistent in font size, and color scheme. 
 
+<a name="skeleton"></a>
 
-# **2.3. Skeleton** (#skeleton)
+# **2.3. Skeleton**
 
-## **Wireframes**
+# **Wireframes**
 
 ### **Home page**
 <hr>
@@ -270,8 +299,9 @@ Responsiveness design has been included in this project, as users are using diff
 ![Shopping bag](readme_documents/wireframes/wireframe_shopping_bag.png)
 <hr>
 
+<a name="colourScheme"></a>
 
-# **2.4. Colour Scheme** (#colorScheme)
+# **2.4. Colour Scheme**
 
 Colors
 
@@ -282,12 +312,15 @@ Please find the colours schemes that I used colors #EF476F #118AB2 #073B4C
 ![Colour gamma](readme_documents/style/color_gamma.png)
 <hr>
 
+<a name="typography"></a>
 
-# **2.5. Typography** (#typography)
+# **2.5. Typography**
 
 I decided to use "Lato" as my font of choice with sans serif as my backup font for browsers that might not support "Lato".
 
 The link to the font can be found [Google Fonts](https://fonts.google.com/)
+
+<a name="icons"></a>
 
 # **2.6. Icons** (#icons)
 
@@ -301,204 +334,33 @@ I use icons provided by [Font Awesome](https://fontawesome.com/)
 
 ### **Bag shopping-cart**
 
-![](readme_documents/style/shopping_cart.png)
+![Bag shopping-cart*](readme_documents/style/shopping_cart.png)
 <hr>
 
 ### **Newsletter envelope**
 
-![](readme_documents/style/enbelope.png)
+![Newsletter envelope](readme_documents/style/enbelope.png)
 <hr>
 
 ### **Contact comments-o**
 
-![](readme_documents/style/comments.png)
+![Contact comments-o](readme_documents/style/comments.png)
 <hr>
 
-# **2.6. Database** (#dataBase)
 
-### **Checkout model structure:**
-
-```python
-class Order(models.Model):
-    order_number = models.CharField(max_length=32, null=False, editable=False)
-    user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
-                                     null=True, blank=True, related_name='orders')
-    full_name = models.CharField(max_length=50, null=False, blank=False)
-    email = models.EmailField(max_length=254, null=False, blank=False)
-    phone_number = models.CharField(max_length=20, null=False, blank=False)
-    country = CountryField(blank_label='Country *', null=False, blank=False)
-    postcode = models.CharField(max_length=20, null=True, blank=True)
-    town_or_city = models.CharField(max_length=40, null=False, blank=False)
-    street_address1 = models.CharField(max_length=80, null=False, blank=False)
-    street_address2 = models.CharField(max_length=80, null=True, blank=True)
-    county = models.CharField(max_length=80, null=True, blank=True)
-    date = models.DateTimeField(auto_now_add=True)
-    delivery_cost = models.DecimalField(max_digits=6, decimal_places=2, null=False, default=0)
-    order_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
-    grand_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
-    original_bag = models.TextField(null=False, blank=False, default='')
-    stripe_pid = models.CharField(max_length=254, null=False, blank=False, default='')
-
-    def _generate_order_number(self):
-        """
-        Generate a random, unique order number using UUID
-        """
-        return uuid.uuid4().hex.upper()
-
-    def update_total(self):
-        """
-        Update grand total each time a line item is added,
-        accounting for delivery costs.
-        """
-        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
-        if self.order_total < settings.FREE_DELIVERY_THRESHOLD:
-            self.delivery_cost = self.order_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
-        else:
-            self.delivery_cost = 0
-        self.grand_total = self.order_total + self.delivery_cost
-        self.save()
-
-    def save(self, *args, **kwargs):
-        """
-        Override the original save method to set the order number
-        if it hasn't been set already.
-        """
-        if not self.order_number:
-            self.order_number = self._generate_order_number()
-        super().save(*args, **kwargs)
-
-    def __str__(self):
-        return self.order_number
-
-
-class OrderLineItem(models.Model):
-    order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
-    product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
-    product_size = models.CharField(max_length=2, null=True, blank=True) # XS, S, M, L, XL
-    quantity = models.IntegerField(null=False, blank=False, default=0)
-    lineitem_total = models.DecimalField(max_digits=6, decimal_places=2, null=False, blank=False, editable=False)
-
-    def save(self, *args, **kwargs):
-        """
-        Override the original save method to set the lineitem total
-        and update the order total.
-        """
-        self.lineitem_total = self.product.price * self.quantity
-        super().save(*args, **kwargs)
-
-    def __str__(self):
-        return f'SKU {self.product.sku} on order {self.order.order_number}'
-```
-### **Contact model structure:**
-
-```python
-class Contact(models.Model):
-    email = models.EmailField()
-    subject = models.CharField(max_length=255)
-    message = models.TextField()
-
-    def __str__(self):
-        return self.email
-```
-
-### **Newsletter model structure:**
-
-```python
-class NewsletterUser(models.Model):
-    email = models.EmailField()
-    date_added = models.DateTimeField(auto_now=True)
-
-    def __str__(self):
-        return self.email
-```
-### **Products model structure:**
-
-```python
-class Category(models.Model):
-
-    class Meta:
-        verbose_name_plural = 'Categories'
-        
-    name = models.CharField(max_length=254)
-    friendly_name = models.CharField(max_length=254, null=True, blank=True)
-
-    def __str__(self):
-        return self.name
-
-    def get_friendly_name(self):
-        return self.friendly_name
-
-
-class Product(models.Model):
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
-    sku = models.CharField(max_length=254, null=True, blank=True)
-    name = models.CharField(max_length=254)
-    description = models.TextField()
-    has_sizes = models.BooleanField(default=False, null=True, blank=True)
-    price = models.DecimalField(max_digits=7, decimal_places=2)
-    rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
-    image_url = models.URLField(max_length=1024, null=True, blank=True)
-    image = models.ImageField(null=True, blank=True)
-
-    def __str__(self):
-        return self.name
-```
-### **Profile model structure:**
-
-```python
-class UserProfile(models.Model):
-    """
-    A user profile model for maintaining default
-    delivery information and order history
-    """
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
-    default_phone_number = models.CharField(max_length=20, null=True, blank=True)
-    default_street_address1 = models.CharField(max_length=80, null=True, blank=True)
-    default_street_address2 = models.CharField(max_length=80, null=True, blank=True)
-    default_town_or_city = models.CharField(max_length=40, null=True, blank=True)
-    default_county = models.CharField(max_length=80, null=True, blank=True)
-    default_postcode = models.CharField(max_length=20, null=True, blank=True)
-    default_country = CountryField(blank_label='Country', null=True, blank=True)
-
-    def __str__(self):
-        return self.user.username
-
-
-@receiver(post_save, sender=User)
-def create_or_update_user_profile(sender, instance, created, **kwargs):
-    """
-    Create or update the user profile
-    """
-    if created:
-        UserProfile.objects.create(user=instance)
-    # Existing users: just save the profile
-    instance.userprofile.save()
-```
-
-### **Reviews model structure:**
-
-```python
-class Review(models.Model):
-    """[Review model]"""
-    user = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    description = models.TextField(max_length=500, null=False,
-                                   blank=False)
-    review_date = models.DateTimeField(auto_now_add=True)
-```
 
 [Back to Table Of Content](#tableOfContents)
 
+<a name="agile"></a>
 
-
-# **3. Agile Methodology** (#agile)
-
+# **3. Agile Methodology**
 Github issues were used to create the User stories and group them according to the MoSCoW prioritization technique. Link to the project with live issues can be found  [here](https://github.com/kamil-kw/BeBike/projects/1)
 
 The issues were then closed automatically when the pull request was linked to the issue.
 
+<a name="kanban"></a>
 
-# **3.1. KANBAN** (#kanban)
+# **3.1. KANBAN**
 
 ### **Kanban Initial**
 <hr>
@@ -510,21 +372,20 @@ The issues were then closed automatically when the pull request was linked to th
 
 ![Kanban Mid process](readme_documents/kanban/kanban_mid_process.png)
 
-### **Kanban Mid process**
+### **Kanban Final**
 <hr>
 
 ![Kanban Final]()
 
-ADD CANBAN BOARDS
-
-![KANBAN Dashboard](images/readme_images/KANBAN.png)
 
 
 
 
 [Back to Table Of Content](#tableOfContents)
 
-# **4. Existing Features** (#features)
+<a name="features"></a>
+
+# **4. Existing Features**
 
 -	Responsive design
 
@@ -542,7 +403,9 @@ ADD CANBAN BOARDS
 
 -	Register functionality
 
-# **4.1. Home page** (#home)
+<a name="home"></a>
+
+# **4.1. Home page**
 
 -	A carousel that displays contact, newsletter subscription and shop now options.
 
@@ -550,7 +413,9 @@ ADD CANBAN BOARDS
 
 -	A contact button that directs the user to the contact form where they can contact the customer service team. 
 
-# **4.2. Navbar**(#navbar)
+<a name="navbar"></a>
+
+# **4.2. Navbar**
 
 -	Store name with link to home page.
 
@@ -560,7 +425,9 @@ ADD CANBAN BOARDS
 
 -	Products are categorised to enable easy finding of the items; the icons are automatically adjusting depending on the screen size.
 
-# **4.3. Footer**(#footer)
+<a name="footer"></a>
+
+# **4.3. Footer**
 
 -	Copy rights.
 
@@ -568,8 +435,9 @@ ADD CANBAN BOARDS
 
 -	Newsletter link to access page where user can subscribe or unsubscribe to receive “special offer”
 
+<a name="carousel"></a>
 
-# **4.4. The carousel**(#carousel)
+# **4.4. The carousel**
 
 -	A carousel that displays contact newsletter and shop now options.
 
@@ -579,21 +447,25 @@ ADD CANBAN BOARDS
 
 -	Newsletter slide with message and button to newsletter page.
 
+<a name="uthentication"></a>
 
-# **4.5. User authentication** (#authentication)
+# **4.5. User authentication**
 
 -	New users can register in my account page.
 
 -	Existing users can log in to their account page.
 
-# **4.6. User profile** (#userProflie)
+<a name="userProflie"></a>
+
+# **4.6. User profile**
 
 -	This page shows a form so the user can update their delivery details. Upon completing the form, all delivery details will be automatically updated if the user proceeds to the checkout page again.
 
 -	User can view order history by selecting the order number, if order is completed user would receive an error message indicating they are viewing a past order summary
 
+<a name="contact"></a>
 
-# **4.7. Contact** (#contact)
+# **4.7. Contact**
 
 -	Where user can leave message to customer service using site form.
 
@@ -601,12 +473,15 @@ ADD CANBAN BOARDS
 
 -	Contact details - if user want to visit store or use different form of contact.
 
+<a name="newsletter"></a>
 
-# **4.8. Newsletter** (#newsletter)
+# **4.8. Newsletter**
 
 -	User can choose to subscribe or unsubscribe, this will direct to the correct page to newsletter.
 
-# **4.9. Shop**(#shop)
+<a name="shop"></a>
+
+# **4.9. Shop**
 
 -	The user can access the product pages by selecting the product category from the navigation bar.
 
@@ -618,8 +493,9 @@ ADD CANBAN BOARDS
 
 -	As a superuser, the admin can see the edit and delete buttons, allowing quick access to the product admin
 
+<a name="bag"></a>
 
-# **4.10. Shopping bag**(#bag)
+# **4.10. Shopping bag**
 
 -	This page shows each product as a line item, displaying an image, name of the product, size, SKU, price per item, the quantity selected, quantity selector to update and a subtotal for each item.
 
@@ -629,8 +505,9 @@ ADD CANBAN BOARDS
 
 -	If the user has not met the free delivery threshold, then an alert message is shown, prompting the user that they can qualify for free delivery if they spend more.
 
+<a name="view"></a>
 
-# **4.11. Product view**(#view)
+# **4.11. Product view**
 
 -	The product details will highlight an image, name of the product, brief description, price, category and rating, quantity selector, keep shopping button and an add to basket button.
 
@@ -640,8 +517,9 @@ ADD CANBAN BOARDS
 
 -	When adding a product to the basket, the user will be prompted with a success message confirming the product has been added.
 
+<a name="loginPage"></a>
 
-# **4.12. Login Page**(#loginPage)
+# **4.12. Login Page**
 
 -	Registered user would need to enter the email address and password that they used when signing up to the site.
 
@@ -653,12 +531,15 @@ ADD CANBAN BOARDS
 
 -	Once the user has successfully logged in, they will be redirected to the home page. A success message will show to confirm the login has been successful.
 
+<a name="logoutPage"></a>
 
-# **4.13. Logout Page**(#logoutPage)
+# **4.13. Logout Page**
 
 -	When clicking logout from the navigation bar, the user is redirected to a sign-out page to confirm their action.
 
-# **4.14. Checkout Page**(#checkputPage)
+<a name="checkputPage"></a>
+
+# **4.14. Checkout Page**
 
 -	A checkout form, prompts the user to enter their delivery details with Stripe integration.
 
@@ -668,14 +549,17 @@ ADD CANBAN BOARDS
 
 -	A message is shown just below the complete order button to warn the user that they will be charged a certain amount on their card.
 
+<a name="successCheckputPage"></a>
 
-# **4.15. Checkout Success Page**(#successCheckputPage)
+# **4.15. Checkout Success Page**
 
 -	This page shows a summary of their order, with an order number.
 
 -	Once the user is on this page, an email will also be triggered to send out an order confirmation email.
 
-# **4.16. Newsletter Subscribe Page**(#subscribePage)
+<a name="subscribePage"></a>
+
+# **4.16. Newsletter Subscribe Page**
 
 -	User can subscribe to the newsletter by using a one-field form.
 
@@ -683,8 +567,9 @@ ADD CANBAN BOARDS
 
 -	If the user has already subscribed, an error message will show up.
 
+<a name="unsubscribePage"></a>
 
-# **4.17. Newsletter Subscribe Page**(#unsubscribePage)
+# **4.17. Newsletter Subscribe Page**
 
 -	User has ability to unsubscribe by filling email into the form displayed at the website.
 
@@ -692,12 +577,13 @@ ADD CANBAN BOARDS
 
 -	If the user enters an email address that is not subscribed to the newsletter, a message will be displayed to the user.
 
+<a name="technologies"></a>
 
+# **5. Technologies Used**
 
+<a name="languages"></a>
 
-# **5. Technologies Used** (#technologies)
-
-# **5.1. Languages Used** (#languages)
+# **5.1. Languages Used**
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML)
     -   The project uses HyperText Markup Language.
@@ -729,21 +615,31 @@ ADD CANBAN BOARDS
     -   s3transfer==0.5.2
     -   sqlparse==0.4.2
     -   stripe==2.72.0
+-   [Jinja](https://jinja.palletsprojects.com/en/3.0.x/templates/)
+    -   Templating language for html
 
-# **5.2. Frameworks Libraries** (#frameworks)
+<a name="frameworks"></a>
+
+# **5.2. Frameworks Libraries**
 -   [Django](https://www.djangoproject.com/)
     -   The project uses Django as the main framework.
 -   [Boostrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+    -   Bootstrap Grid was used for responsiveness as well as features such as accordion.
+-   [jQuery 3.6](https://blog.jquery.com/)
 
-# **5.3. Frameworks Libraries** (#frameworks)
+
+<a name="databasesUsed"></a>
+
+# **5.3. Database**
 
 -   [Sqlite](https://www.sqlite.org/index.html)
     -   The project uses sqlite as a local enviromental database
 -   [PostgreSQL](https://www.postgresql.org/)
     -   The project uses PostgreSQL as a deployment database
 
+<a name="techPrograms"></a>
 
-# **5.4. Technologies and Programs Used:** (#techPrograms)
+# **5.4. Technologies and Programs Used:**
 
 -   [AWS](https://aws.amazon.com/)
     -   The project uses Amazon Web Services to host all static and media files.
@@ -769,121 +665,25 @@ ADD CANBAN BOARDS
     - Special Icons for links
 -   [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)
     - Multi Device Website Mockup Generator was used to create the Mock up image in this readme
+-   [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/)
+    - Use to generate unique key
+-   [TinyPNG](https://tinypng.com/)
+    - REsize image to imporove loading time
+-   [Stripe](https://stripe.com/ie)
+    - Online payment system.
+-   [AWS-S3 Amazon](https://stripe.com/ie)
+    - Online payment system.
 
 
-# **6. Testing** (#testing)
+<a name="testing"></a>
 
-# **6.1 Python - PEP8** (#pep)
+# **6. Testing**
 
--   Issues with missing docstring, too long lines are fixed using pylint built in the gitpod therefore no issues left for PEP8
+All test [here](READMETEST.md) in the test file
 
-# **6.2 Html - W3C** (#wc3html)
+<a name="seo"></a>
 
-# **Error list W3C html**
-
-![Error list W3C html](/workspace/BeBike/readme_documents/testing/w3_html_errors.png)
-
-1, 2, 5 Closed ```li``` tag in ```ul``` tag to follow good practice method
-
-3, 4 id changed to user-options-base to remove conflict
-
-7 The type attribute removed from each script including ```type="text/javascript"
-
-# **Pass W3C html**
-
-![Pass W3C html](readme_documents/testing/w3_html_no_errors.png)
-
-Code pass W3C HTML without errors
-
-# **6.3 CSS - W3C** (#wc3css)
-
-# **Pass W3C CSS**
-
-![Pass W3C css](readme_documents/testing/w3_css_result.png)
-
-Code pass W3C CSS without errors
-
-# **6.4 JSHint** (#jshint)
-
-# **bag script**
-
-![bag script](readme_documents/testing/bag_script.png)
-
-1, 2, semi colon added
-3, ```/*jshint esversion: 6 */``` added to code
-
-Other Code pass JShint without errors
-
-# **6.5 Manual Testing** (#manualTesting)
-
-# **6.5.1 Home page**
-
-# **Carousel**
-
-![Home page carousel](readme_documents/testing/home_carousel.gif)
-
-# **Buttons caurusel**
-
-![Home page carousel](readme_documents/testing/home_carousel_buttons.gif)
-
-# **Navbar**
-
-![Navbar](readme_documents/testing/navbar.gif)
-
-# **Footer**
-
-![Footer](readme_documents/testing/footer.gif)
-
-# **Home responsivenes**
-
-![Home responsivenes](readme_documents/testing/home_responsivenes.gif)
-
-# **6.5.1 My account**
-
-# **My account register**
-
-![My account register](readme_documents/testing/register.gif)
-
-# **My account login logout user**
-
-![My account login logout user](readme_documents/testing/login_out.gif)
-
-# **My account login admin**
-
-![My account login admin](readme_documents/testing/login_admin.gif)
-
-# **6.5.1 Products**
-
-# **Add products to database**
-
-![My account login admin](readme_documents/testing/adding_product_admin.gif)
-
-# **All products add to bag**
-
-![My account login admin](readme_documents/testing/product_add.gif)
-
-# **Add review**
-
-![Add review](readme_documents/testing/product_add.gif)
-
-
-# **6.5.1 Checkout payment**
-
-![Checkout payment](readme_documents/testing/checkout.gif)
-
-# **6.5.1 Contact Form**
-
-![Contact Form](readme_documents/testing/contact.gif)
-
-# **6.5.1 Newsletter subscribe and unsubscribe**
-
-![Newsletter subscribe and unsubscribe](readme_documents/testing/newsletter.gif)
-
-# **6.6 Function tests** (#functionTest)
-
-<hr>
-
-# **7. Search Engine Optimalisation**](#development)
+# **7. Search Engine Optimalisation**
 To improve the search engine optimisation (SEO) of the site I:
 
 - Added keywords in a meta tag to my base.html. The keywords were researched using  [WordTracker](https://www.wordtracker.com/), there are a number of short-tail and long-tail keywords for territory of Netherlands.
@@ -915,7 +715,9 @@ I choose these keywords because they didn't have incredibly high volume and comp
 
 <hr>
 
-# **8. Marketing**](#marketing)
+<a name="marketing"></a>
+
+# **8. Marketing**
 
 As part of my marketing strategies, I have decided to use content marketing, social media and email marketing root. All options are free, but effective for an e-commerce store.
 
@@ -928,18 +730,19 @@ As part of my marketing strategies, I have decided to use content marketing, soc
 -	Email marketing – another free source of marketing, where by using email subscriptions users would receive a newsletter, outlining current items in the store, sales and any other elements. This is a straightforward way to increase sales and have customer returning by providing discounts
 <hr>
 
-# **9. Social Media Business Page**](#development)
+<a name="social"></a>
+
+# **9. Social Media Business Page**
 
 The business will use social media as a platform to promote the business is [Facebook business page](https://www.facebook.com/BeBike-Store-100847359323133)
 
 
 ![Facebook_business_page](readme_documents/marketing/facebook_main.jpg)
 
-<hr>
+<a name="deployment"></a>
 
-# **10. Development Cycle**](#development)
+# **10. Deployment**
 
-# **11. Deployment**](#deployment)
 ### **Development Environment**
 <hr>
 
@@ -989,69 +792,157 @@ The business will use social media as a platform to promote the business is [Fac
     * pip3 freeze > requirements.txt
 <hr>
 
-# **12. End Product**](#endProduct)
+<a name="endProduct"></a>
+
+# **11. End Product**
+
+### **Home page**
+
+![Home page](readme_documents/end_products/index_page.png)
+
+
+### **Product page**
+
+![Product page](readme_documents/end_products/products_page.png)
+
+### **Product view**
+
+![Product view](readme_documents/end_products/product_view_page.png)
+
+### **Sign in**
+
+![Sign in](readme_documents/end_products/signin_page.png)
+
+### **Sign out**
+
+![Sign out](readme_documents/end_products/signout_page.png)
+
+### **My Profile**
+
+![My Profile](readme_documents/end_products/myprofile_page.png)
+
+### **Newsletter**
+
+![Newsletter](readme_documents/end_products/newsletter_page.png)
+
+### **Newsletter subscribe**
+
+![Newsletter subscribe](readme_documents/end_products/newsletter_page.png)
+
+### **Newsletter unsubscribe**
+
+![Newsletter unsubscribe](readme_documents/end_products/newsletter_unsubscribe_page.png)
+
+### **Checkout page**
+
+![Checkout page](readme_documents/end_products/checkout_page.png)
+![Checkout page](readme_documents/end_products/checkout_page_buttons.png)
+
+### **Checkout page success***
+
+![Checkout page success](readme_documents/end_products/checkout_succes_page.png)
 
 <hr>
 
-# **13. Known Bugs**](#knownBugs)
-# ***13.1 Fixed bugs**](#fixedBugs)
-# **13.1 Remaining Bugs**](#remainBugs)
+<a name="knownBugs"></a>
+
+# **12. Known Bugs**
+
+<a name="fixedBugs"></a>
+
+# **12.1 Fixed bugs**
+
+### **boto instalation**
+
+![boto instalation](readme_documents/testing/boto_intalation_error.png)
+
+Incorrect packet unstalled instead of Boto3 boto was installed
+
+### **product_size value error**
+
+![product_size value](readme_documents/testing/Product_size_error.png)
+
+
+Unexpected keywors argument 'product_size' caused html 400 error once size of product was choosen, fixed by adding 'product_size' to checkout model.py
+
+```python
+    product_size = models.CharField(
+                max_length=50, null=True, blank=True
+    )
+```
+
+### **Incorrect calculation**
+
+![calculation](readme_documents/testing/calculation.png)
+
+Error with calculation caused by incorrect way of assigning calculation in the checkout models
+
+```python
+        if self.order_total < settings.FREE_DELIVERY_THRESHOLD:
+            self.delivery_cost = self.order_total * (
+                            settings.STANDARD_DELIVERY_PERCENTAGE / 100)
+```
+Fixed by adding new value sdp and remove from parenthises
+
+```python
+    if self.order_total < settings.FREE_DELIVERY_THRESHOLD:
+        sdp = settings.STANDARD_DELIVERY_PERCENTAGE
+        self.delivery_cost = self.order_total * sdp / 100
+```
+
+### **Incorrect link in the checkout message**
+
+Incorrect url directing to 'bag' in the secure checkout message, issue fixed by replacing it with 'checkout'
+
+<a name="remainBugs"></a>
+
+# **12.1 Remaining Bugs**
+
+No remain bugs
 
 <hr>
 
-# **14. Credits**](#credits)
+<a name="credits"></a>
+
+# **14. Credits**
+
+-   Heroku deployment instructions from Code Institute
+
+-   Boutique Ado from code institute
+
+-   Master Code Online with creating newsletter app and mail send
+
+-   Stack overflow to support debugging
+
+-   CI Tutor Support for Help with
+    -   static files upload issue
+    -   Incorect value in the database
+
+-   Bootstrap documentation
+
+-   Django documentation
+
+-   Fontawsome
+
+-   Bootstrap 4
+
+-   mp4 to gif converter
+
+-   Fine Screen recorder
+
+-   Tutorials and inspiration
+
+-   Images of existing products from fietsenwinkel.nl 
+
+<a name="acknowledgements"></a>
+
+# **14. Acknowledgements**
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# **1.3. Skeleton**
+I want to thank my Mentor **Marcel Mulder** for support and advice during my journey in the Code Institute, I couldn't have asked for a better Mentor – Thank you, Marcel!!!
 
-### **Diagram**
+The fantastic **Code Institute Tutor Support team**, without you, I'll not be able to release this project on time
 
-# **1.5. Database Design**
+My coding Buddy **Mateusz Leks** and all colleagues and peers in the Slack Community who are always there to offer their support and advice and some general good cheer on the tougher days! 
 
-### **Security**
-<hr>
-
-
-# **2. Features**
-
-
-
-
-### **Importance and Difficulty table**
-<hr>
-
-![Hero image](images/readme_images/importance_difficulty.png)
-
-
-# **4. Testing**
-
-<a name="pep"></a>
-
-## **4.1 Validators**
-
-### **PEP8**
-
-Code pass PEP8 without critical errors
-
-### **W3C HTML**
-
-Code pass W3C HTML without errors
-
-### **W3C CSS**
-
-Code pass W3C CSS without errors
-
-
-
-[Back to Table of Content](#tableOfContents)
-
-<a name="manualTesting"></a>
-
-
-
-
-
+Special thanks to my fiancé **Malgorzata Ostrowska** for all patient and believing in me when I wasn't believing in myself
