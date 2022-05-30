@@ -25,7 +25,7 @@
     * [**2.1.4 Trends of Modern Websites**](#trends)
 * [**2.2. Structure**](#structure)
 * [**2.3. Skeleton**](#skeleton)
-* [**2.4. Color Scheme**](#colorScheme)
+* [**2.4. Colour Scheme**](#colorScheme)
 * [**2.4. Typography**](#colorScheme)
 * [**2.5. Icons**](#icons)
 * [**2.5. Data Base**](#dataBase)
@@ -117,9 +117,10 @@
 
 # **1.1. Project Description**
 
-One of the best benefits of living in the Netherlands is having access to over 37 000 km of bicycle paths, the only thing you need to enjoy is a bike. Therefore I have created a bike shop website, where viewers can buy a bike, as well as some basic parts and accessories.
+One of the best benefits of living in the Netherlands is having access to over 37 000 km of bicycle paths, the only thing you need to enjoy is a bike. Therefore, I have created a bike shop website, where viewers can buy a bike, as well as some basic parts and accessories.
 
-The website allows users to use a search engine to find the most suitable product and with just one click add to the shopping trolley. The website is intuitive with a simple design, so with this e-commerce website buying a bike is as simple as ordering food delivery and who doesn’t like good home delivery. 
+The website allows users to use a search engine to find the most suitable product and with just one click add to the shopping trolley. The website is intuitive with a simple design, so with this e-commerce website buying a bike is as simple as ordering food delivery and who doesn’t like good home delivery.
+
 
 
 (#requirements)
@@ -142,19 +143,20 @@ PUT HERE WHAT WAS EXPECTED FROM THE PROJECT
 
 # **2. UX**
 
-Be Bike website is designed in modern coloristic with white background. The coloristic gamma used was #EF476F #118AB2 #073B4C
+Be Bike website is designed in modern coloristic with white background. The coloristic gamma used was #EF476F #118AB2 #073B4C.
 
-Use can either choose from the dropdown menu the product category and scroll through the range of products or can use the search engine to find a specific item. 
+User can either choose from the dropdown menu the product category and scroll through the range of products or can use the search engine to find a specific item.
 
-To make a purchase users can pay with a credit card as the checkout page features stripe pay-ments.
+To make a purchase users can pay with a credit card as the checkout page features stripe payments.
 
-User can also be engaged by reviewing the products. 
+User can also be engaged by reviewing the products.
+
 
 (#projectGoals)
 
 # **2.1.1 Project Goals**
 
-My goal was to create a simple and intuitive store, where customers can purchase bikes and bike related items. Website has a simple design, allowing user to navigate easily through it, by doing that customers can focus on the content, rather than trying to find items on the page.
+My goal was to create a simple and intuitive store, where customers can purchase bikes and bike related items. Website has a simple design, allowing user to navigate easily through it, by doing those customers can focus on the content, rather than trying to find items on the page.
 
 # **2.1.2 User Goals**
 
@@ -193,14 +195,14 @@ The website should have a simple user interface, with the navigation to each sec
 
 -	The user has a clear overview of all products/product groups. 
 
--	Before making a payment the total purchase price is displayed, and product quantities can be removed/ adjusted. 
+-	Before making a payment, the total purchase price is displayed, and product quantities can be removed/ adjusted. 
 
 -	Website has a secure payment method, giving the user comfort feeling
 
 
 # **2.1.4 Trends of Modern Websites** (#trends)
 
-Based on the new trends in the website design, I have used the concept from the 1980s – Memphis design, which in this case was making the main page design simultaneously more color, approachable and adventurous.  
+Based on the new trends in the website design, I have used the concept from the 1980s – Memphis design, which in this case was making the main page design simultaneously more colour, approachable and adventurous.  
 
 
 # **2.2. Structure** (#structure)
@@ -269,21 +271,21 @@ Responsiveness design has been included in this project, as users are using diff
 <hr>
 
 
-# **2.4. Color Scheme** (#colorScheme)
+# **2.4. Colour Scheme** (#colorScheme)
 
 Colors
 
 Please find the colours schemes that I used colors #EF476F #118AB2 #073B4C
 
-### **Color gamma**
+### **Colour gamma**
 
-![Color gamma](readme_documents/style/color_gamma.png)
+![Colour gamma](readme_documents/style/color_gamma.png)
 <hr>
 
 
 # **2.5. Typography** (#typography)
 
-I decided to use Lato as my font of choice with sans serif as my backup font for browsers that might not support Lato.
+I decided to use "Lato" as my font of choice with sans serif as my backup font for browsers that might not support "Lato".
 
 The link to the font can be found [Google Fonts](https://fonts.google.com/)
 
@@ -291,8 +293,8 @@ The link to the font can be found [Google Fonts](https://fonts.google.com/)
 
 I use icons provided by [Font Awesome](https://fontawesome.com/)
 
-My account fa-user-circle-o
-### **My account - fa-user-circle-o**
+
+### **My account - user-circle-o**
 
 ![](readme_documents/style/fa-user-circle-o.png)
 <hr>
@@ -302,12 +304,12 @@ My account fa-user-circle-o
 ![](readme_documents/style/shopping_cart.png)
 <hr>
 
-### **Newsletter fa-envelope**
+### **Newsletter envelope**
 
 ![](readme_documents/style/enbelope.png)
 <hr>
 
-### **Contact fa-comments-o**
+### **Contact comments-o**
 
 ![](readme_documents/style/comments.png)
 <hr>
@@ -491,7 +493,7 @@ class Review(models.Model):
 
 # **3. Agile Methodology** (#agile)
 
-Github issues were used to create the User stories and group them according to the MoSCoW pri-oritization technique. Link to the project with live issues can be found [here](https://github.com/kamil-kw/BeBike/projects/1)
+Github issues were used to create the User stories and group them according to the MoSCoW prioritization technique. Link to the project with live issues can be found  [here](https://github.com/kamil-kw/BeBike/projects/1)
 
 The issues were then closed automatically when the pull request was linked to the issue.
 
@@ -542,66 +544,67 @@ ADD CANBAN BOARDS
 
 # **4.1. Home page** (#home)
 
--	A carousel that displays contact newsletter and shop now options.
+-	A carousel that displays contact, newsletter subscription and shop now options.
 
--	A shop now button that directs the user to the all products page where user can easily
-identify products they would like to purchase.
+-	A shop now button that directs the user to the “All products” page where user can easily identify products they would like to purchase.
 
--	A contact button that directs the user to the contact form where user can then 
-contact with store team
+-	A contact button that directs the user to the contact form where they can contact the customer service team. 
 
 # **4.2. Navbar**(#navbar)
 
 -	Store name with link to home page.
 
--	Search products bar.
+-	Products search bar.
 
--	My Account dropdown list with user autentication, display content accordingly
+-	My account dropdown list will display different elements dependent if user is a registered user or a guest.
 
--	Product categories displayed to easy reach of content, changing to small icon once viewed on the small screen
+-	Products are categorised to enable easy finding of the items; the icons are automatically adjusting depending on the screen size.
 
 # **4.3. Footer**(#footer)
 
 -	Copy rights.
 
--	Contact link to access page where user can contact with store crew.
+-	Contact link to access page where user can contact customer service team.
 
--	Newsletter link to access page where user can subscribe or unsubscribe to recive special offer
+-	Newsletter link to access page where user can subscribe or unsubscribe to receive “special offer”
 
 
 # **4.4. The carousel**(#carousel)
 
 -	A carousel that displays contact newsletter and shop now options.
 
--	Shop now slide with message and button to product page
+-	Shop now slides with message and button to product page.
 
--	Contact slide with message and button to contact page
+-	Contact slide with message and button to contact page.
 
--	Newsletter slide with message and button to newsletter page
+-	Newsletter slide with message and button to newsletter page.
+
 
 # **4.5. User authentication** (#authentication)
 
--	If user new than can register using register option in the My account
+-	New users can register in my account page.
 
--	If user is registered than can login using My account link
+-	Existing users can log in to their account page.
 
 # **4.6. User profile** (#userProflie)
 
--	This page shows a form so the user can update their delivery details. Upon completing the form, all delivery details will be updated if the user proceeds to the checkout page again.
+-	This page shows a form so the user can update their delivery details. Upon completing the form, all delivery details will be automatically updated if the user proceeds to the checkout page again.
 
--	Order history is also displayed, where the user can select the order number to view a previous order confirmation summary. An alert will also show prompting the user they are viewing a past order confirmation summary.
+-	User can view order history by selecting the order number, if order is completed user would receive an error message indicating they are viewing a past order summary
+
 
 # **4.7. Contact** (#contact)
 
--	Where user can leave message to store crew using site form
+-	Where user can leave message to customer service using site form.
 
--	Form check if email include @ sign, to ensure store crew are able to return to user
+-	Form check if email include @ sign, to ensure customer service can return to user.
 
--	Contact details - if user want to visit store or use diferent form of contact
+-	Contact details - if user want to visit store or use different form of contact.
+
 
 # **4.8. Newsletter** (#newsletter)
 
--	User can choose subscribe or unsubscribe, this will direct to correct page to newsletter
+-	User can choose to subscribe or unsubscribe, this will direct to the correct page to newsletter.
 
 # **4.9. Shop**(#shop)
 
@@ -618,19 +621,20 @@ contact with store team
 
 # **4.10. Shopping bag**(#bag)
 
--	This page shows each product as a line item, displaying an image, name of the product, weight, SKU, price per item, the quantity selected, quantity selector to update and a subtotal for each item.
+-	This page shows each product as a line item, displaying an image, name of the product, size, SKU, price per item, the quantity selected, quantity selector to update and a subtotal for each item.
 
--	When the quantity selector is at 1, the minus button is disabled.
+-	When the quantity selector is at 1, the minus button is disabled, user can use the button underneath (remove) to remove item from the basket. 
 
--	A pricing summary of the whole basket is also shown with the basket total, delivery fee and total.
+-	Basket would show the pricing summary of all items within, delivery fee and total.
 
--	If the user has not met the free delivery threshold then an alert message is shown, prompting the user that they can qualify for free delivery if they spend more.
+-	If the user has not met the free delivery threshold, then an alert message is shown, prompting the user that they can qualify for free delivery if they spend more.
+
 
 # **4.11. Product view**(#view)
 
--	The product details will showcase an image, name of the product, short description, price, weight selector(if the product has different weights), category and rating, quantity selector, keep shopping button and an add to basket button.
+-	The product details will highlight an image, name of the product, brief description, price, category and rating, quantity selector, keep shopping button and an add to basket button.
 
--	As a superuser, the admin can see the edit and delete buttons, allowing quick access to the product admin.
+-	Admin (superuser) have ability to edit and delete buttons, allowing quick access to the product admin .
 
 -	The quantity selector starts at 1. When the quantity is at 1, the minus button is disabled.
 
@@ -639,13 +643,13 @@ contact with store team
 
 # **4.12. Login Page**(#loginPage)
 
--	A login form that requires the user to enter the email address and password that they used when signing up to the site.
+-	Registered user would need to enter the email address and password that they used when signing up to the site.
 
 -	The user can only log in once they have activated their account via an email received after signing up.
 
--	A message to prompt the user that if an account has not been created they can click the signup hyperlink to be redirected to the signup page.
+-	A message to prompt the user that if an account has not been created, they can click the signup hyperlink to be redirected to the signup page.
 
--	If the user enters in the wrong credentials, a message is displayed to the user.
+-	If the user enters in the wrong credentials, an error message is displayed to the user.
 
 -	Once the user has successfully logged in, they will be redirected to the home page. A success message will show to confirm the login has been successful.
 
@@ -655,13 +659,15 @@ contact with store team
 -	When clicking logout from the navigation bar, the user is redirected to a sign-out page to confirm their action.
 
 # **4.14. Checkout Page**(#checkputPage)
+
 -	A checkout form, prompts the user to enter their delivery details with Stripe integration.
 
--	A checkbox for the user to confirm if they would like to save their details for next time. This only saves delivery details and not the card details.
+-	User has ability to save their details for next time, this is enabled by having a checkbox, which user can confirm. This would save the delivery detail and not the card details. 
 
--	A summary of the user's order is also shown, the user can then be sure they are making the correct purchase before continuing with the checkout process.
+-	Before continuing with checkout process, order summary will be displayed for user to validate the total purchase summary and see all items.
 
 -	A message is shown just below the complete order button to warn the user that they will be charged a certain amount on their card.
+
 
 # **4.15. Checkout Success Page**(#successCheckputPage)
 
@@ -671,19 +677,21 @@ contact with store team
 
 # **4.16. Newsletter Subscribe Page**(#subscribePage)
 
--	A one-field form for the user to enter their email to subscribe to the newsletter.
+-	User can subscribe to the newsletter by using a one-field form.
 
 -	Once the user has successfully subscribed to the newsletter, they will be redirected to the home page. A success message will show up confirming the user has successfully subscribed to the newsletter.
 
 -	If the user has already subscribed, an error message will show up.
 
+
 # **4.17. Newsletter Subscribe Page**(#unsubscribePage)
 
--	A one-field form for the user to enter their email to unsubscribe from the newsletter.
+-	User has ability to unsubscribe by filling email into the form displayed at the website.
 
--   Once the user has successfully unsubscribed from the newsletter, they will be redirected to the home page. A success message will show up confirming the user has successfully unsubscribed to the newsletter.
+-	Once the user has successfully unsubscribed from the newsletter, they will be redirected to the home page. A success message will show up confirming the user has successfully unsubscribed to the newsletter.
 
--   If the user enters an email address that is not subscribed to the newsletter, a message will be displayed to the user.
+-	If the user enters an email address that is not subscribed to the newsletter, a message will be displayed to the user.
+
 
 
 
@@ -744,7 +752,7 @@ contact with store team
 -   [Balsamiq](https://balsamiq.com/)
     -   Balsamiq was used to create the wireframes during the design process.
 -   [Google Fonts](https://fonts.google.com/)
-    -   Google fonts were used to import the "Be Vietnam Pro" font into the style.css file which is used on all pages throughout the project.
+    -   Google fonts were used to import the "Lato" font into the style.css file which is used on all pages throughout the project.
 -   [GitHub](https://github.com/)
     -   GitHub was used to store the project's code after being pushed from Git
 -   [Gitpod](https://www.gitpod.io/)
@@ -767,7 +775,7 @@ contact with store team
 
 # **6.1 Python - PEP8** (#pep)
 
-Issues with missig dockstring, too long lines are fixed using pylint builded in the gitpod therefore no issues left for PEP8
+-   Issues with missing docstring, too long lines are fixed using pylint built in the gitpod therefore no issues left for PEP8
 
 # **6.2 Html - W3C** (#wc3html)
 
@@ -837,51 +845,46 @@ Other Code pass JShint without errors
 # **7. Search Engine Optimalisation**](#development)
 To improve the search engine optimisation (SEO) of the site I:
 
-- Added keywords in a meta tag to my base.html. The keywords were researched using [WordTracker](https://www.wordtracker.com/), there are a number of short-tail and long-tail keywords for teritory of Netherlands.
+- Added keywords in a meta tag to my base.html. The keywords were researched using  [WordTracker](https://www.wordtracker.com/), there are a number of short-tail and long-tail keywords for territory of Netherlands.
 
-- This is a list of all the keywords I came up with,
-    - short tail words - bike, bicicle, ebike,city bike
+- This is a list of all the keywords I produced:
+    - short tail words - bike, bicycle, ebike, city bike
     - long tail words - bike shop near me, electric bike, mountain bike, transport bike
 
 - I ended up using these:
 
 Word Bike
 
-Key Word             | Average search over last 12 months                  | Organic competition    | In Anchor And Title |
--------------------- | --------------------------------------------------- | ---------------------- | ------------------- |
-bike shop near me | 49,200 | 28.74 | 5 |
-bike shop | 24,908 | 24.03 | 3,999 |
-mountain bike | 15.842 | 35.54 | 24.247 |
-bike | 11.842 | 64.11 | 366.562 |
-bicycling | 9,817 | 26.01 | 79,118 |
-bike | 180,575 | 64.11 | 5,759 |
-e bike | 119,640 | 35.98 | 25,638 |
-bicycle shop | 92,625 | 16.8 | 768 |
-electric bicycle | 70,083 | 20.87 | 2,086 |
-cycle | 42,750 | 70.77 | 577.838 |
-e bikes for sale | 23,850 | 6.54 | 10 |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
+Key Word             | 
+-------------------- | 
+bike shop near me | 
+bike shop | 
+mountain bike | 
+bike | 
+bicycling | 
+bike |
+e bike |
+bicycle shop |
+electric bicycle |
+cycle |
+e bikes for sale |
 
 
-I chose these keywords because they didn't have incredibly high volume and competition.
+I choose these keywords because they didn't have incredibly high volume and competition.
+
 <hr>
 
 # **8. Marketing**](#marketing)
 
-For my marketing strategies, I decided to go with content marketing, Social media and email marketing root. As these are free options and very effective for an E-commerce store.
+As part of my marketing strategies, I have decided to use content marketing, social media and email marketing root. All options are free, but effective for an e-commerce store.
 
-- Social media - Using these platforms will help build and interact with customers to build relationships and loyalty. This also helps build the brand. Followers will help share the business posts and in result gain more traction with other people. The same content can be across all social media platforms.
+-	Social media – Facebook was the chosen platform, which will help with building relationships and loyalty with customers. This will be enabled by frequent updates to the site, promoting the items and having direct interactions with existing and potential customers. The next steps would include usage of YouTube & Instagram as social media platforms. 
+
 
 ![facebook_post](readme_documents/marketing/facebook_post.jpg)
 
 
-- Email marketing - Using email marking via a newsletter will be beneficial as it is a free source of marketing. Those who are subscribed are more likely to convert into paying customers. This will increase sales and returning customers as I can provide discount codes and other special offers. A good pro is that the business has total control over the design of the emails.
+-	Email marketing – another free source of marketing, where by using email subscriptions users would receive a newsletter, outlining current items in the store, sales and any other elements. This is a straightforward way to increase sales and have customer returning by providing discounts
 <hr>
 
 # **9. Social Media Business Page**](#development)
@@ -1003,7 +1006,7 @@ Code pass W3C CSS without errors
 
 
 
-[Back to Table Of Content](#tableOfContents)
+[Back to Table of Content](#tableOfContents)
 
 <a name="manualTesting"></a>
 
