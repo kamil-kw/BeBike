@@ -801,6 +801,10 @@ Code pass JShint without errors
 
 ![Footer](readme_documents/testing/footer.gif)
 
+# **Home responsivenes**
+
+![Home responsivenes](readme_documents/testing/home_responsivenes.gif)
+
 # **6.6 Function tests** (#functionTest)
 
 <hr>
