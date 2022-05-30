@@ -889,10 +889,10 @@ As part of my marketing strategies, I have decided to use content marketing, soc
 
 # **9. Social Media Business Page**](#development)
 
-The business will use social media as a platform to promote the business is [facebook business page](https://www.facebook.com/BeBike-Store-100847359323133)
+The business will use social media as a platform to promote the business is [Facebook business page](https://www.facebook.com/BeBike-Store-100847359323133)
 
 
-![facebook_business_page](readme_documents/marketing/facebook_main.jpg)
+![Facebook_business_page](readme_documents/marketing/facebook_main.jpg)
 
 <hr>
 
