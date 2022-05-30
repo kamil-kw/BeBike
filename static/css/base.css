@@ -388,3 +388,13 @@ input[name='q']::placeholder {
         font-size: smaller;
     }
 }
+
+/* -----------------------------------footer text mobile max 361px */
+
+@media (max-width: 361px) { 
+
+    footer {
+        font-size: 12px;
+    }
+
+}

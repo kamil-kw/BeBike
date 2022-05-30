@@ -771,11 +771,15 @@ Issues with missig dockstring, too long lines are fixed using pylint builded in 
 
 # **6.2 Html - W3C** (#wc3html)
 
-
+Code pass W3C HTML without errors
 
 # **6.3 CSS - W3C** (#wc3css)
 
+Code pass W3C CSS without errors
+
 # **6.4 JSHint** (#jshint)
+
+Code pass JShint without errors
 
 # **6.5 Manual Testing** (#manualTesting)
 
@@ -786,20 +790,24 @@ Issues with missig dockstring, too long lines are fixed using pylint builded in 
 # **7. Search Engine Optimalisation**](#development)
 To improve the search engine optimisation (SEO) of the site I:
 
-- Added keywords in a meta tag to my base.html. The keywords were researched using [WordTracker](https://www.wordtracker.com/), there are a number of short-tail and long-tail keywords.
+- Added keywords in a meta tag to my base.html. The keywords were researched using [WordTracker](https://www.wordtracker.com/), there are a number of short-tail and long-tail keywords for teritory of Netherlands.
 
-- This is a list of all the keywords I came up with, 
+- This is a list of all the keywords I came up with,
+    - short tail words - bike, bicicle, ebike,city bike
+    - long tail words - bike shop near me, electric bike, mountain bike, transport bike
 
 - I ended up using these:
 
+Word Bike
+
 Key Word             | Average search over last 12 months                  | Organic competition    | In Anchor And Title |
 -------------------- | --------------------------------------------------- | ---------------------- | ------------------- |
-bike shop near me | 731,667 | 5.63 | 5 |
-bike shop | 570,750 | 24.03 | 3,999 |
-mountain bike | 419,583 | 10.69 | 96 |
-bicycle | 281,750 | 27.68 | 7,664 |
-electric bike | 265,667 | 45.95 | 79,118 |
-bike | 180,575 | 64.11 | 366,562 |
+bike shop near me | 49,200 | 28.74 | 5 |
+bike shop | 24,908 | 24.03 | 3,999 |
+mountain bike | 15.842 | 35.54 | 24.247 |
+bike | 11.842 | 64.11 | 366.562 |
+bicycling | 9,817 | 26.01 | 79,118 |
+bike | 180,575 | 64.11 | 5,759 |
 e bike | 119,640 | 35.98 | 25,638 |
 bicycle shop | 92,625 | 16.8 | 768 |
 electric bicycle | 70,083 | 20.87 | 2,086 |
@@ -823,21 +831,71 @@ For my marketing strategies, I decided to go with content marketing, Social medi
 
 - Social media - Using these platforms will help build and interact with customers to build relationships and loyalty. This also helps build the brand. Followers will help share the business posts and in result gain more traction with other people. The same content can be across all social media platforms.
 
+![facebook_post](Readme_documents/marketing/facebook_post.jpg)
+
+
 - Email marketing - Using email marking via a newsletter will be beneficial as it is a free source of marketing. Those who are subscribed are more likely to convert into paying customers. This will increase sales and returning customers as I can provide discount codes and other special offers. A good pro is that the business has total control over the design of the emails.
 <hr>
 
 # **9. Social Media Business Page**](#development)
 
-The business will use social media as a platform to promote the business will be [facebook business page](https://www.facebook.com/BeBike-Store-100847359323133)
+The business will use social media as a platform to promote the business is [facebook business page](https://www.facebook.com/BeBike-Store-100847359323133)
 
-![facebook_business_page](documentation_assets/images/facebook_business_page.png)
+
+![facebook_business_page](Readme_documents/marketing/facebook_main.jpg)
 
 <hr>
 
 # **10. Development Cycle**](#development)
 
 # **11. Deployment**](#deployment)
+### **Development Environment**
+<hr>
 
+1. Create requirements.txt pip3 freeze --local > requirements.txt
+2. Create Procfile.
+3. Commit and push changes to Github.
+4. Move to the Heroku part of a deployment.
+
+### **To deploy my final project to the cloud I used Heroku. To do this I had to**
+<hr>
+
+1. Push the latest code to GitHub.
+2. Go to Heroku
+3. Select new in the top right corner.
+4. Create a new app.
+5. Enter the app name and select Europe as the region.
+6. Connect to GitHub.
+7. Search for repo-name.
+8. Select connect to the relevant repo you want to deploy.
+9. Select the settings tab.
+10. Add buildpack
+11. Select Python, then save changes.
+12. Make sure Heroku/Python is at the top of the list, followed by Heroku/Nodejs
+13. Navigate to the deploy tab
+14. Scroll down to Manual Deploy and select deploy branch.
+
+### **AWS S3 Bucket Configuration**
+1. Add and configure the AWS S3 Bucket:bebike, All public access. ACL: Everyone Objects -> List.
+2. Create the Bucket Policy - bebike policy.
+3. Create the Cross-Origin Resource Sharing (CORS)
+4. Access AWS IAM and create a user for the Training Project. Create a group, with the user attached. Download the CSV file with the credentials and save it in a safe place. Updated the ‘.env’ file with the relevant variables.
+5. Execute python3 manage.py collectstatic to upload static files to the AWS S3 Bucket.
+6. Upload the ‘media’ folder and files manually.
+7. Remove DISABLE_COLLECTSTATIC variable from Heroku Config Vars.
+
+### **Heroku Postgres Database**
+<hr>
+
+1. Go to the Resources tab in Heroku.
+2. Select Heroku Postgres from the Add-ons search bar
+3. Choose the Hobby Dev-Free plan.
+4. Click submit the order form.
+5. Go back to Gitpod bash terminal and install
+    * pip3 install dj_databse_url
+    * pip3 install psycopg2-binary 
+6. Seve in the requirements file by: 
+    * pip3 freeze > requirements.txt
 <hr>
 
 # **12. End Product**](#endProduct)
@@ -904,157 +962,5 @@ Code pass W3C CSS without errors
 
 
 
-# **5. Development Cycle**
-
-
-# **6. Deployment**
-
-### **Development Environment**
-<hr>
-
-1. Create requirements.txt pip3 freeze --local > requirements.txt
-2. Create Procfile.
-3. Commit and push changes to Github.
-4. Move to the Heroku part of a deployment.
-
-### **To deploy my final project to the cloud I used Heroku. To do this I had to**
-<hr>
-
-1. Push the latest code to GitHub.
-2. Go to Heroku
-3. Select new in the top right corner.
-4. Create a new app.
-5. Enter the app name and select Europe as the region.
-6. Connect to GitHub.
-7. Search for repo-name.
-8. Select connect to the relevant repo you want to deploy.
-9. Select the settings tab.
-10. Add buildpack
-11. Select Python, then save changes.
-12. Make sure Heroku/Python is at the top of the list, followed by Heroku/Nodejs
-13. Navigate to the deploy tab
-14. Scroll down to Manual Deploy and select deploy branch.
-
-### **Heroku Postgres Database**
-<hr>
-
-1. Go to the Resources tab in Heroku.
-2. Select Heroku Postgres from the Add-ons search bar
-3. Choose the Hobby Dev-Free plan.
-4. Click submit the order form.
-5. Go back to Gitpod bash terminal and install
-    * pip3 install dj_databse_url
-    * pip3 install psycopg2-binary 
-6. Seve in the requirements file by: 
-    * pip3 freeze > requirements.txt
-
-
-# **7. End Product**
-
-## **End Product screens**
-<hr>
-
-### **Landing Page**
-<hr>
-
-![Landing page](images/readme_images/testing/welcome_page.png)
-
-### **Sign up page**
-<hr>
-
-![Sign up page](images/readme_images/testing/signup.png)
-
-### **Login Page**
-<hr>
-
-![Login Page](images/readme_images/testing/login_page.png)
-
-
-### **User not authenticated Page Menu**
-<hr>
-
-![User not authenticated Page Menu](images/readme_images/testing/landing_page_menu.png)
-
-### **User authenticated Home Page Menu**
-<hr>
-
-![User authenticated Home Page Menu](images/readme_images/testing/home_page_menu.png)
-
-
-### **Project List**
-<hr>
-
-![Project List](images/readme_images/testing/project_list.png)
-
-### **Add Project**
-<hr>
-
-![Add Project](images/readme_images/testing/add_project.png)
-
-### **Update Project**
-<hr>
-
-![Update Project](images/readme_images/testing/update_project.png)
-
-### **Delete Project**
-<hr>
-
-![Delete Project](images/readme_images/testing/delete_project.png)
-
-### **Home Page**
-<hr>
-
-![Home Page](images/readme_images/testing/home_page.png)
-
-### **Edit Task**
-<hr>
-
-![Edit Task](images/readme_images/testing/edit_task.png)
-
-### **Sign out**
-<hr>
-
-![Sign out](images/readme_images/testing/sign_out.png)
-
-
-
-[See testing photos](#functionTest) for more end product photo.
-
-
-[Back to Table Of Content](#tableOfContents)
-
-<a name="knownBugs"></a>
-
-# **8. Known bugs**
-
-<a name="fixedBugs"></a>
-
-## **8.1 Fixed bugs**
-<hr>
-
-
-During development I did face multiple bugs:
-
-### **301 Redirect Error**
-<hr>
-
-Error
-
-![301 redirect Error](images/readme_images/bugs/E1_301redirect_Error.png)
-
-Fix 
-
-![301 redirect Error](images/readme_images/bugs/E1_solution_True.png)
-
-   
-### **Issue with page rendering**
-
-
-
-[Back to Table Of Content](#tableOfContents)
-
-<a name="credits"></a>
-
-# **9. Credits**
 
 
