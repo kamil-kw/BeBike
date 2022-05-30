@@ -1,4 +1,4 @@
-![Hero image](Readme_documents/mockup/hero_responsive.png)
+![Hero image](readme_documents/mockup/hero_responsive.png)
 
 # Be Bike e-commerce store
 
@@ -219,53 +219,53 @@ Responsiveness design has been included in this project, as users are using diff
 ### **Home page**
 <hr>
 
-![Home page](Readme_documents/wireframes/wireframe_home_.png)
+![Home page](readme_documents/wireframes/wireframe_home_.png)
 
 ### **Sign up page**
 <hr>
 
-![Sign up page](Readme_documents/wireframes/wireframe_signup.png)
+![Sign up page](readme_documents/wireframes/wireframe_signup.png)
 
 ### **Sign in page**
 <hr>
 
-![Sign in page](Readme_documents/wireframes/wireframe_signin.png)
+![Sign in page](readme_documents/wireframes/wireframe_signin.png)
 
 
 ### **Contact page**
 <hr>
 
-![Contact page](Readme_documents/wireframes/wireframe_contact.png)
+![Contact page](readme_documents/wireframes/wireframe_contact.png)
 
 ### **Newsletter**
 <hr>
 
-![Newsletter](Readme_documents/wireframes/wireframe_newsletter.png)
+![Newsletter](readme_documents/wireframes/wireframe_newsletter.png)
 
 ### **Newsletter Subscribe**
 <hr>
 
-![Newsletter Subscribe](Readme_documents/wireframes/wireframe_newsletter_subscribe.png)
+![Newsletter Subscribe](readme_documents/wireframes/wireframe_newsletter_subscribe.png)
 <hr>
 
 ### **Newsletter Unsubscribe**
 
-![Newsletter Unsubscribe](Readme_documents/wireframes/wireframe_newsletter_unsubscribe.png)
+![Newsletter Unsubscribe](readme_documents/wireframes/wireframe_newsletter_unsubscribe.png)
 <hr>
 
 ### **Products**
 
-![Products](Readme_documents/wireframes/wireframe_products.png)
+![Products](readme_documents/wireframes/wireframe_products.png)
 <hr>
 
 ### **Products View**
 
-![Products View](Readme_documents/wireframes/wireframe_product_view.png)
+![Products View](readme_documents/wireframes/wireframe_product_view.png)
 <hr>
 
 ### **Shopping bag**
 
-![Shopping bag](Readme_documents/wireframes/wireframe_shopping_bag.png)
+![Shopping bag](readme_documents/wireframes/wireframe_shopping_bag.png)
 <hr>
 
 
@@ -277,7 +277,7 @@ Please find the colours schemes that I used colors #EF476F #118AB2 #073B4C
 
 ### **Color gamma**
 
-![Color gamma](Readme_documents/style/color_gamma.png)
+![Color gamma](readme_documents/style/color_gamma.png)
 <hr>
 
 
@@ -294,22 +294,22 @@ I use icons provided by [Font Awesome](https://fontawesome.com/)
 My account fa-user-circle-o
 ### **My account - fa-user-circle-o**
 
-![](Readme_documents/style/fa-user-circle-o.png)
+![](readme_documents/style/fa-user-circle-o.png)
 <hr>
 
 ### **Bag shopping-cart**
 
-![](Readme_documents/style/shopping_cart.png)
+![](readme_documents/style/shopping_cart.png)
 <hr>
 
 ### **Newsletter fa-envelope**
 
-![](Readme_documents/style/enbelope.png)
+![](readme_documents/style/enbelope.png)
 <hr>
 
 ### **Contact fa-comments-o**
 
-![](Readme_documents/style/comments.png)
+![](readme_documents/style/comments.png)
 <hr>
 
 # **2.6. Database** (#dataBase)
@@ -501,12 +501,12 @@ The issues were then closed automatically when the pull request was linked to th
 ### **Kanban Initial**
 <hr>
 
-![Kanban Initial](Readme_documents/kanban/kanban_initial.png)
+![Kanban Initial](readme_documents/kanban/kanban_initial.png)
 
 ### **Kanban Mid process**
 <hr>
 
-![Kanban Mid process](Readme_documents/kanban/kanban_mid_process.png)
+![Kanban Mid process](readme_documents/kanban/kanban_mid_process.png)
 
 ### **Kanban Mid process**
 <hr>
@@ -760,7 +760,7 @@ contact with store team
 -   [Font Awesome](https://fontawesome.com/)
     - Special Icons for links
 -   [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)
-    - Multi Device Website Mockup Generator was used to create the Mock up image in this README
+    - Multi Device Website Mockup Generator was used to create the Mock up image in this readme
 
 
 # **6. Testing** (#testing)
@@ -782,6 +782,24 @@ Code pass W3C CSS without errors
 Code pass JShint without errors
 
 # **6.5 Manual Testing** (#manualTesting)
+
+# **6.5.1 Home page**
+
+# **Carousel**
+
+![Home page carousel](readme_documents/testing/home_carousel.gif)
+
+# **Buttons caurusel**
+
+![Home page carousel](readme_documents/testing/home_carousel_buttons.gif)
+
+# **Navbar**
+
+![Navbar](readme_documents/testing/navbar.gif)
+
+# **Footer**
+
+![Footer](readme_documents/testing/footer.gif)
 
 # **6.6 Function tests** (#functionTest)
 
@@ -831,7 +849,7 @@ For my marketing strategies, I decided to go with content marketing, Social medi
 
 - Social media - Using these platforms will help build and interact with customers to build relationships and loyalty. This also helps build the brand. Followers will help share the business posts and in result gain more traction with other people. The same content can be across all social media platforms.
 
-![facebook_post](Readme_documents/marketing/facebook_post.jpg)
+![facebook_post](readme_documents/marketing/facebook_post.jpg)
 
 
 - Email marketing - Using email marking via a newsletter will be beneficial as it is a free source of marketing. Those who are subscribed are more likely to convert into paying customers. This will increase sales and returning customers as I can provide discount codes and other special offers. A good pro is that the business has total control over the design of the emails.
@@ -842,7 +860,7 @@ For my marketing strategies, I decided to go with content marketing, Social medi
 The business will use social media as a platform to promote the business is [facebook business page](https://www.facebook.com/BeBike-Store-100847359323133)
 
 
-![facebook_business_page](Readme_documents/marketing/facebook_main.jpg)
+![facebook_business_page](readme_documents/marketing/facebook_main.jpg)
 
 <hr>
 
