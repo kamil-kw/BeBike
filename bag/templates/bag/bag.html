@@ -10,7 +10,9 @@
     </div>
 {% endblock %}
 
+<!-- Shopping bag -->
 {% block content %}
+    <!-- overlay -->
     <div class="overlay"></div>
     <div class="container mb-2 footer-padding">
         <div class="row">
@@ -71,7 +73,7 @@
                                     <th scope="col">Subtotal</th>
                                 </tr>
                             </thead>
-
+                            <!-- items dispalay -->
                             {% for item in bag_items %}
                                 <tr>
                                     <td class="p-3 w-25">
@@ -104,6 +106,7 @@
                         </table>
                     </div>
                 {% else %}
+                    <!-- bag is empty -->
                     <p class="lead mb-5">Your bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg" aria-label="Keep Shopping - return to Products">
                         <span class="icon">

@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% load static %}
 {% load bag_tools %}
-
+<!-- css block -->
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'static/style.css' %}">
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
-
+<!-- header block -->
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -14,10 +14,12 @@
         </div>
     </div>
 {% endblock %}
-
+<!-- content block -->
 {% block content %}
+    <!-- Overlay -->
     <div class="overlay"></div>
     <div class="container footer-padding">
+        <!-- header -->
         <div class="row">
             <div class="col">
                 <hr>
@@ -27,6 +29,7 @@
         </div>
 
         <div class="row">
+            <!-- order sumary -->
             <div class="col-12 col-lg-6 order-lg-last mb-5">
                 <p class="text-muted">Order Summary ({{ product_count }})</p>
                 <div class="row">
@@ -37,6 +40,7 @@
                         <p class="mb-1 mt-0 small text-muted">Subtotal</p>
                     </div>
                 </div>
+                <!-- bag items -->
                 {% for item in bag_items %}
                     <div class="row">
                         <div class="col-2 mb-1">
@@ -59,6 +63,7 @@
                     </div>
                 {% endfor %}
                 <hr class="my-0">
+                <!-- orde details -->
                 <div class="row text-black text-right">
                     <div class="col-7 offset-2">
                         <p class="my-0">Order Total:</p>
@@ -73,6 +78,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6">
+                <!-- Delivery form -->
                 <p class="text-muted">Please fill out the form below to complete your order</p>
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                     {% csrf_token %}
@@ -112,19 +118,22 @@
                         <input type="hidden" value="{{ client_secret }}" name="client_secret">
                     </fieldset>
 
-                    <div class="submit-button text-right mt-5 mb-2">                    
+                    <div class="submit-button text-right mt-5 mb-2">
+                        <!-- Adjust bag button -->
 						<a href="{% url 'view_bag' %}" class="btn btn-outline-black rounded-0" aria-label="adjust bag">
 							<span class="icon">
 								<i class="fas fa-chevron-left"></i>
 							</span>
 							<span class="font-weight-bold">Adjust Bag</span>
 						</a>
+                        <!-- Complere order button -->
 						<button id="submit-button" class="btn btn-black rounded-0" aria-label="complete order">
 							<span class="font-weight-bold">Complete Order</span>
 							<span class="icon">
 								<i class="fas fa-lock"></i>
 							</span>
 						</button>
+                        <!-- information about cart charge -->
 						<p class="small text-danger my-0">
 							<span class="icon">
 								<i class="fas fa-exclamation-circle"></i>
@@ -136,6 +145,7 @@
             </div>
         </div>
     </div>
+    <!-- loading overla -->
     <div id="loading-overlay">
         <h1 class="text-light logo-font loading-spinner">
             <span class="icon">
@@ -145,6 +155,7 @@
     </div>
 {% endblock %}
 
+<!-- js block to handle stripe elements -->
 {% block postloadjs %}
     {{ block.super }}
     {{ stripe_public_key|json_script:"id_stripe_public_key" }}

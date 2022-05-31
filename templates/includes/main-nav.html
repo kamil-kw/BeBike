@@ -1,15 +1,20 @@
+<!-- main navbar template -->
 <li class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <!-- home -->
         <li class="nav-item d-block d-md-none">
             <li class="nav-item d-block d-md-none">
                 <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link" aria-label="Home">
                     Home
                 </a>
             </li>
+        </li>
+        <!-- All products -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="All Products">
                 All Products
             </a>
+            <!-- All products by filter -->
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
@@ -17,11 +22,12 @@
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
-
+        <!-- bike -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="bike-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Bike">
                 Bike
             </a>
+            <!-- bike  categories -->
             <div class="dropdown-menu border-0" aria-labelledby="bike-link">
                 <a href="{% url 'products' %}?category=e_bike" class="dropdown-item" aria-label="e-bike">e-bike</a>
                 <a href="{% url 'products' %}?category=mountain" class="dropdown-item" aria-label="Mountain">Mountain</a>
@@ -30,22 +36,24 @@
 
             </div>
         </li>
-
+        <!-- Accessories categories -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="riding-gear-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Accessories
             </a>
+            <!-- Accessories categories -->
             <div class="dropdown-menu border-0" aria-labelledby="riding-gear-link">
                 <a href="{% url 'products' %}?category=parts" class="dropdown-item" aria-label="Parts">Parts</a>
                 <a href="{% url 'products' %}?category=cloths" class="dropdown-item" aria-label="Cloths">Cloths</a>
                 <a href="{% url 'products' %}?category=accessories" class="dropdown-item" aria-label="Accessories">Accessories</a>
             </div>
         </li>
-
+        <!-- Special Offers categories -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Special Offers">
                 Special Offers
             </a>
+            <!-- Special Offers categories -->
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item" aria-label="New Arrivals">New Arrivals</a>
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item" aria-label="Deals">Deals</a>

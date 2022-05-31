@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
-
+<!-- page header block -->
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -8,10 +8,12 @@
         </div>
     </div>
 {% endblock %}
-
+<!-- content block -->
 {% block content %}
+    <!-- overlay -->
     <div class="overlay"></div>
     <div class="container-fluid footer-padding">
+        <!-- product details section-->
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
                 <div class="image-container my-5">
@@ -52,6 +54,7 @@
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
+                            <!-- size handling -->
                             {% with product.has_sizes as s %}
                             {% if s %}
                                 <div class="col-12">
@@ -91,14 +94,16 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <!-- buttons -->
                             <div class="col{% if s %}-12 mt-2{% endif %}">
+                                <!-- keep shoping button -->
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
                                     <span class="icon">
                                         <i class="fas fa-chevron-left"></i>
                                     </span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
+                                <!-- add to bag button -->
                                 <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag" aria-label="add to bag">
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
@@ -109,10 +114,12 @@
             </div>
         </div>
     </div>
+    <!-- review template -->
     {% include 'reviews/includes/reviews.html' %}
 {% endblock %}
 
 {% block postloadjs %}
 {{ block.super }}
+<!-- imput script -->
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}

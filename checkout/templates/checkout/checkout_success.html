@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
-
+<!-- css block -->
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
-
+<!-- header block -->
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -12,10 +12,12 @@
         </div>
     </div>
 {% endblock %}
-
+<!-- content block -->
 {% block content %}
+    <!-- Overlay -->
     <div class="overlay"></div>
     <div class="container footer-padding">
+        <!-- confiramtion about email -->
         <div class="row">
             <div class="col">
                 <hr>
@@ -24,7 +26,7 @@
                 <p class="text-black">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
             </div>
         </div>
-
+        <!-- details table -->
         <div class="row">
             <div class="col-12 col-lg-7">
                 <div class="order-confirmation-wrapper p-2 border">

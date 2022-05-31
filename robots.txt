@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /accounts/
 Disallow: /bag/
 Disallow: /newsletter/
-Sitemap: https://bebike.herokuapp.com/m/stiemap.xml
+Sitemap: https://bebike.herokuapp.com/m/sitemap.xml

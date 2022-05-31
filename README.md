@@ -150,7 +150,7 @@ The website allows users to use a search engine to find the most suitable produc
 
 # **1.2 Project Requirements**
 
-# **1.2.1 Main Technologies**](#maintech)
+# **1.2.1 Main Technologies**
 
 As per project technologies scope for this project 
 
@@ -342,7 +342,7 @@ The link to the font can be found [Google Fonts](https://fonts.google.com/)
 
 <a name="icons"></a>
 
-# **2.6. Icons** (#icons)
+# **2.6. Icons**
 
 I use icons provided by [Font Awesome](https://fontawesome.com/)
 
@@ -370,9 +370,9 @@ I use icons provided by [Font Awesome](https://fontawesome.com/)
 
 <a name="dataBase"></a>
 
-**2.7. Database**
+# **2.7. Database**
 
-Database described [here](READMEDATABASE.md) in the database file file
+## [Database described here in the database file](READMEDATABASE.md)
 
 
 [Back to Table Of Content](#tableOfContents)
@@ -745,7 +745,7 @@ The issues were then closed automatically when the pull request was linked to th
 
 # **6. Testing**
 
-All test [here](READMETEST.md) in the test file
+## [All test here in the test file](READMETEST.md)
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -919,7 +919,7 @@ The business will use social media as a platform to promote the business is [Fac
 ![Checkout page](readme_documents/end_products/checkout_page.png)
 ![Checkout page](readme_documents/end_products/checkout_page_buttons.png)
 
-### **Checkout page success***
+### **Checkout page success**
 
 ![Checkout page success](readme_documents/end_products/checkout_succes_page.png)
 

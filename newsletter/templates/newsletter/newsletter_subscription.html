@@ -3,7 +3,7 @@
 <!-- 
 {% load crispy_forms_tags %}
 {% crispy form form.helper %} -->
-
+<!-- page header block -->
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -11,10 +11,11 @@
     </div>
 </div>
 {% endblock %}
-
+<!-- content block -->
 {% block content %}
 <!-- Overlay -->
 <div class="overlay"></div>
+<!-- heder -->
 <div class="container footer-padding">
     <div class="row">
         <div class="col">
@@ -24,14 +25,18 @@
         </div>
     </div>
 </div>
+
 <div class="container mb-2">
     <div class="row">
         <div class="col text-center mt-3">
+            <!-- message to user -->
             <h3 class="my-sm-2 my-md-3 my-lg-5 text-center font-weight-bold">Newsletter</h3>
                 <h4>Do you want to receive newsletter with our offer?</h4>
                 <div class="py-3">
+                    <!-- subscribe -->
                     <a class="btn btn-black" href="{% url 'newsletter_signup' %}" aria-label="Subscribe">Subscribe</a>
                     or
+                    <!-- unsubscribe -->
                     <a class="btn btn-black" href="{% url 'newsletter_unsubscribe' %}" aria-label="Unsubscribe">Unsubscribe</a>
                 </div>
         </div>

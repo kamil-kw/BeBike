@@ -3,7 +3,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-
+    <!-- meta block -->
     {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="UTF-8">
@@ -12,26 +12,27 @@
         <meta name="author" content="Kamil Kwiatkowski">
         <meta name="publisher" content="Kamil Kwiatkowski">
         <meta name="copyright" content="Kamil Kwiatkowski">
-        <meta name="description" content="Be Bike bike store">
+        <meta name="description" content="Be Bike store">
         <meta name="page-topic" content="Bikes">
         <meta name="page-type" content="Store">
         <meta name="audience" content="Everyone">
         <meta name="robots" content="index, follow">
     {% endblock %}
 
+    <!-- extra meta block -->
     {% block extra_meta %}
     {% endblock %}
-
+    <!-- css block -->
     {% block corecss %}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
         <link rel="icon" type="image/xicon" href="{% static 'favicon/favicon.ico' %}">
     {% endblock %}
-
+    <!-- extra css block -->
     {% block extra_css %}
     {% endblock %}
-
+    <!-- js block -->
     {% block corejs %}
         <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -40,7 +41,7 @@
         <!-- Stripe -->
         <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
-
+    <!-- extra js block -->
     {% block extra_js %}
     {% endblock %}
 

@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
-
+<!-- page header block -->
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -8,9 +8,11 @@
         </div>
     </div>
 {% endblock %}
-
+<!-- content block -->
 {% block content %}
+    <!-- overlay -->
     <div class="overlay"></div>
+    <!-- product mangment -->
     <div class="container footer-padding">
         <div class="row">
             <div class="col-12 col-md-6">
@@ -20,7 +22,7 @@
                 <hr>
             </div>
         </div>
-
+        <!-- product details form -->
         <div class="row">
             <div class="col-12 col-md-6">
                 <form method="POST" action="{% url 'edit_product' product.id %}" class="form mb-2" enctype="multipart/form-data">
@@ -33,7 +35,9 @@
                         {% endif %}
                     {% endfor %}
                     <div class="text-right">
+                        <!-- cancel button -->
                         <a class="btn btn-outline-black rounded-0" href="{% url 'products' %}" aria-label="cancel">Cancel</a>
+                        <!-- update button -->
                         <button class="btn btn-black rounded-0" type="submit" aria-label="update">Update Product</button>
                     </div>
                 </form>
@@ -41,7 +45,7 @@
         </div>
     </div>
 {% endblock %}
-
+<!-- js block to handle adding image -->
 {% block postloadjs %}
     {{ block.super }}
     <script>

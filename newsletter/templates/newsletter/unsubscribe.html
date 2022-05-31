@@ -15,6 +15,7 @@
 {% block content %}
 <!-- Overlay -->
 <div class="overlay"></div>
+<!-- header -->
 <div class="container footer-padding">
     <div class="row">
         <div class="col">
@@ -27,13 +28,16 @@
 <div class="container mb-2">
     <div class="row">
         <div class="col text-center mt-3">
+            <!-- message to user -->
             <h3 class="my-sm-2 my-md-3 my-lg-5 text-center font-weight-bold">Unsubscribe from our Newletter</h3>
+            <!-- crispy form -->
             <form method="POST">
                 {% csrf_token %}
                 {{ form|crispy }}
-                <!-- {% crispy form %} -->
                 <div class="py-3">
+                    <!-- unsubscribe button -->
                     <button class="btn btn-black" type="submit" aria-label="Unsubscribe">Unsubscribe</button>
+                    <!-- back button -->
                     <a class="btn btn-black" href="{% url 'newsletter_subscribe' %}" aria-label="Back"> Back</a>
                 </div>
             </form>
