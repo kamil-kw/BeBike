@@ -1,6 +1,10 @@
-# Database 
+# Database
 
-[**2.6. Database**](#dataBase)
+## [Back to mainReadme file](README.md)
+
+<a name="tableOfContents"></a>
+
+[**2.7. Database**](#dataBase)
 *   [**Checkout model structure**](#checkotModel)
 *   [**Contact model structure**](#contactModel)
 *   [**Newsletter model structure**](#nletterewsModel)
@@ -8,6 +12,8 @@
 *   [**Profile model structure**](#profileModel)
 *   [**Reviews model structure**](#reviewsModel)
 
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="dataBase"></a>
 
@@ -90,6 +96,8 @@ class OrderLineItem(models.Model):
 ```
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="contactModel"></a>
 
 ### **Contact model structure:**
@@ -105,6 +113,8 @@ class Contact(models.Model):
 ```
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="newsletterModel"></a>
 
 ### **Newsletter model structure:**
@@ -118,6 +128,8 @@ class NewsletterUser(models.Model):
         return self.email
 ```
 <hr>
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="productsModel"></a>
 
@@ -155,6 +167,8 @@ class Product(models.Model):
 ```
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="profileModel"></a>
 
 ### **Profile model structure:**
@@ -190,6 +204,8 @@ def create_or_update_user_profile(sender, instance, created, **kwargs):
 ```
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="reviewsModel"></a>
 
 ### **Reviews model structure:**
@@ -203,3 +219,8 @@ class Review(models.Model):
                                    blank=False)
     review_date = models.DateTimeField(auto_now_add=True)
 ```
+
+[Back to Table Of Content](#tableOfContents)
+
+
+## [Back to mainReadme file](README.md)

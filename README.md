@@ -9,7 +9,7 @@
 # Table of Contents
 
 
-[**1. Project Overview**](#overviev)
+[**1. Project Overview**](#overview)
 * [**1.1. Project Description**](#description)
 * [**1.2 Project Requirements**](#requirements)
     * [**1.2.1 Main Technologies**](#maintech)
@@ -25,9 +25,9 @@
 * [**2.2. Structure**](#structure)
 * [**2.3. Skeleton**](#skeleton)
 * [**2.4. Colour Scheme**](#colourScheme)
-* [**2.4. Typography**](#colorScheme)
-* [**2.5. Icons**](#icons)
-* [**2.5. Data Base**](#dataBase)
+* [**2.5. Typography**](#colorScheme)
+* [**2.6. Icons**](#icons)
+* [**2.7. Data Base**](#dataBase)
 
 <hr>
 
@@ -74,10 +74,10 @@
 * [**6.5 Manual Testing**](#testing)
     * [**6.5.1 Home page**](#testing)
         *   Carousel
-        *   Buttons caurusel
+        *   Buttons carousel
         *   Navbar
         *   Footer
-        *   Home responsivenes
+        *   Home responsiveness
     * [**6.5.2 My account**](#testing)
         *   My account register
         *   My account login logout user
@@ -87,8 +87,8 @@
         *   Add products to database
         *   All products add to bag
         *   Add review
-        *   Add product responsivnes
-        *   Product view responsivnes
+        *   Add product responsiveness
+        *   Product view responsiveness
     * [**6.5.4 Checkout payment**](#testing)
     * [**6.5.5 Contact Form**](#testing)
     * [**6.5.6 Newsletter subscribe and unsubscribe**](#testing)
@@ -132,7 +132,7 @@
 
 [Back to Table Of Content](#tableOfContents)
 
-<a name="overviev"></a>
+<a name="overview"></a>
 
 # **1. Project Overview**
 
@@ -144,10 +144,11 @@ One of the best benefits of living in the Netherlands is having access to over 3
 
 The website allows users to use a search engine to find the most suitable product and with just one click add to the shopping trolley. The website is intuitive with a simple design, so with this e-commerce website buying a bike is as simple as ordering food delivery and who doesn’t like good home delivery.
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="requirements"></a>
 
 # **1.2 Project Requirements**
-
 
 # **1.2.1 Main Technologies**](#maintech)
 
@@ -157,11 +158,11 @@ As per project technologies scope for this project
 
 -   Relational database MySQL or Postgres
 
--   Stripe payments to handle payments
+-   Stripe payments to manage payments
 
 -   Additional libraries
 
-
+[Back to Table Of Content](#tableOfContents)
 
 <a name="ux"></a>
 
@@ -175,12 +176,16 @@ To make a purchase users can pay with a credit card as the checkout page feature
 
 User can also be engaged by reviewing the products.
 
+[Back to Table Of Content](#tableOfContents)
 
 <a name="projectGoals"></a>
 
 # **2.1.1 Project Goals**
 
 My goal was to create a simple and intuitive store, where customers can purchase bikes and bike related items. Website has a simple design, allowing user to navigate easily through it, by doing those customers can focus on the content, rather than trying to find items on the page.
+
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="userGoals"></a>
 
@@ -191,7 +196,7 @@ My goal was to create a simple and intuitive store, where customers can purchase
 ITEM            | FIRST TIME USER                  | RETURNING USER
 --------------- | -------------------------------- | ---------------
 View a list of products and select items to purchase | ✅ | ✅	 	 
-Choose Product  Category to view products and select items to purchase | ✅ | ✅ 
+Choose Product Category to view products and select items to purchase | ✅ | ✅ 
 Search products by name via the toolbar search option | ✅ | ✅
 Have visibility on price and product details | ✅ | ✅
 See the total of my purchases at the time | ✅ | ✅
@@ -207,6 +212,8 @@ Update my user profile |  | ✅
 View order history |  | ✅
 Easily log in and log out |  | ✅
 Register for an account |  | ✅
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="userExpectations"></a>
 
@@ -231,15 +238,19 @@ The website should have a simple user interface, with the navigation to each sec
 
 Based on the new trends in the website design, I have used the concept from the 1980s – Memphis design, which in this case was making the main page design simultaneously more colour, approachable and adventurous.  
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="structure"></a>
 
 # **2.2. Structure**
 
 Responsiveness design has been included in this project, as users are using different devices (including mobiles, laptops/ PC, and tablets). This is to ensure user achieves the best experiences on their chosen device.
 
--	User can easily navigate through labeled buttons 
+-	User can easily navigate through labelled buttons.
 
--	All elements are consistent in font size, and color scheme. 
+-	All elements are consistent in font size, and colour scheme. 
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="skeleton"></a>
 
@@ -262,6 +273,7 @@ Responsiveness design has been included in this project, as users are using diff
 
 ![Sign in page](readme_documents/wireframes/wireframe_signin.png)
 
+[Back to Table Of Content](#tableOfContents)
 
 ### **Contact page**
 <hr>
@@ -284,6 +296,8 @@ Responsiveness design has been included in this project, as users are using diff
 ![Newsletter Unsubscribe](readme_documents/wireframes/wireframe_newsletter_unsubscribe.png)
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 ### **Products**
 
 ![Products](readme_documents/wireframes/wireframe_products.png)
@@ -299,6 +313,8 @@ Responsiveness design has been included in this project, as users are using diff
 ![Shopping bag](readme_documents/wireframes/wireframe_shopping_bag.png)
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="colourScheme"></a>
 
 # **2.4. Colour Scheme**
@@ -312,6 +328,8 @@ Please find the colours schemes that I used colors #EF476F #118AB2 #073B4C
 ![Colour gamma](readme_documents/style/color_gamma.png)
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="typography"></a>
 
 # **2.5. Typography**
@@ -320,12 +338,13 @@ I decided to use "Lato" as my font of choice with sans serif as my backup font f
 
 The link to the font can be found [Google Fonts](https://fonts.google.com/)
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="icons"></a>
 
 # **2.6. Icons** (#icons)
 
 I use icons provided by [Font Awesome](https://fontawesome.com/)
-
 
 ### **My account - user-circle-o**
 
@@ -347,6 +366,13 @@ I use icons provided by [Font Awesome](https://fontawesome.com/)
 ![Contact comments-o](readme_documents/style/comments.png)
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
+<a name="dataBase"></a>
+
+**2.7. Database**
+
+Database described [here](READMEDATABASE.md) in the database file file
 
 
 [Back to Table Of Content](#tableOfContents)
@@ -379,8 +405,6 @@ The issues were then closed automatically when the pull request was linked to th
 
 
 
-
-
 [Back to Table Of Content](#tableOfContents)
 
 <a name="features"></a>
@@ -403,6 +427,8 @@ The issues were then closed automatically when the pull request was linked to th
 
 -	Register functionality
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="home"></a>
 
 # **4.1. Home page**
@@ -412,6 +438,8 @@ The issues were then closed automatically when the pull request was linked to th
 -	A shop now button that directs the user to the “All products” page where user can easily identify products they would like to purchase.
 
 -	A contact button that directs the user to the contact form where they can contact the customer service team. 
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="navbar"></a>
 
@@ -425,6 +453,8 @@ The issues were then closed automatically when the pull request was linked to th
 
 -	Products are categorised to enable easy finding of the items; the icons are automatically adjusting depending on the screen size.
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="footer"></a>
 
 # **4.3. Footer**
@@ -434,6 +464,8 @@ The issues were then closed automatically when the pull request was linked to th
 -	Contact link to access page where user can contact customer service team.
 
 -	Newsletter link to access page where user can subscribe or unsubscribe to receive “special offer”
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="carousel"></a>
 
@@ -447,13 +479,17 @@ The issues were then closed automatically when the pull request was linked to th
 
 -	Newsletter slide with message and button to newsletter page.
 
-<a name="uthentication"></a>
+[Back to Table Of Content](#tableOfContents)
+
+<a name="authentication"></a>
 
 # **4.5. User authentication**
 
 -	New users can register in my account page.
 
 -	Existing users can log in to their account page.
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="userProflie"></a>
 
@@ -462,6 +498,8 @@ The issues were then closed automatically when the pull request was linked to th
 -	This page shows a form so the user can update their delivery details. Upon completing the form, all delivery details will be automatically updated if the user proceeds to the checkout page again.
 
 -	User can view order history by selecting the order number, if order is completed user would receive an error message indicating they are viewing a past order summary
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="contact"></a>
 
@@ -473,11 +511,15 @@ The issues were then closed automatically when the pull request was linked to th
 
 -	Contact details - if user want to visit store or use different form of contact.
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="newsletter"></a>
 
 # **4.8. Newsletter**
 
 -	User can choose to subscribe or unsubscribe, this will direct to the correct page to newsletter.
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="shop"></a>
 
@@ -493,6 +535,8 @@ The issues were then closed automatically when the pull request was linked to th
 
 -	As a superuser, the admin can see the edit and delete buttons, allowing quick access to the product admin
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="bag"></a>
 
 # **4.10. Shopping bag**
@@ -505,6 +549,8 @@ The issues were then closed automatically when the pull request was linked to th
 
 -	If the user has not met the free delivery threshold, then an alert message is shown, prompting the user that they can qualify for free delivery if they spend more.
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="view"></a>
 
 # **4.11. Product view**
@@ -516,6 +562,8 @@ The issues were then closed automatically when the pull request was linked to th
 -	The quantity selector starts at 1. When the quantity is at 1, the minus button is disabled.
 
 -	When adding a product to the basket, the user will be prompted with a success message confirming the product has been added.
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="loginPage"></a>
 
@@ -531,11 +579,15 @@ The issues were then closed automatically when the pull request was linked to th
 
 -	Once the user has successfully logged in, they will be redirected to the home page. A success message will show to confirm the login has been successful.
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="logoutPage"></a>
 
 # **4.13. Logout Page**
 
 -	When clicking logout from the navigation bar, the user is redirected to a sign-out page to confirm their action.
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="checkputPage"></a>
 
@@ -549,6 +601,8 @@ The issues were then closed automatically when the pull request was linked to th
 
 -	A message is shown just below the complete order button to warn the user that they will be charged a certain amount on their card.
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="successCheckputPage"></a>
 
 # **4.15. Checkout Success Page**
@@ -556,6 +610,8 @@ The issues were then closed automatically when the pull request was linked to th
 -	This page shows a summary of their order, with an order number.
 
 -	Once the user is on this page, an email will also be triggered to send out an order confirmation email.
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="subscribePage"></a>
 
@@ -567,6 +623,8 @@ The issues were then closed automatically when the pull request was linked to th
 
 -	If the user has already subscribed, an error message will show up.
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="unsubscribePage"></a>
 
 # **4.17. Newsletter Subscribe Page**
@@ -576,6 +634,8 @@ The issues were then closed automatically when the pull request was linked to th
 -	Once the user has successfully unsubscribed from the newsletter, they will be redirected to the home page. A success message will show up confirming the user has successfully unsubscribed to the newsletter.
 
 -	If the user enters an email address that is not subscribed to the newsletter, a message will be displayed to the user.
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="technologies"></a>
 
@@ -618,6 +678,8 @@ The issues were then closed automatically when the pull request was linked to th
 -   [Jinja](https://jinja.palletsprojects.com/en/3.0.x/templates/)
     -   Templating language for html
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="frameworks"></a>
 
 # **5.2. Frameworks Libraries**
@@ -627,6 +689,7 @@ The issues were then closed automatically when the pull request was linked to th
     -   Bootstrap Grid was used for responsiveness as well as features such as accordion.
 -   [jQuery 3.6](https://blog.jquery.com/)
 
+[Back to Table Of Content](#tableOfContents)
 
 <a name="databasesUsed"></a>
 
@@ -636,6 +699,8 @@ The issues were then closed automatically when the pull request was linked to th
     -   The project uses sqlite as a local enviromental database
 -   [PostgreSQL](https://www.postgresql.org/)
     -   The project uses PostgreSQL as a deployment database
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="techPrograms"></a>
 
@@ -674,12 +739,15 @@ The issues were then closed automatically when the pull request was linked to th
 -   [AWS-S3 Amazon](https://stripe.com/ie)
     - Online payment system.
 
+[Back to Table Of Content](#tableOfContents)
 
 <a name="testing"></a>
 
 # **6. Testing**
 
 All test [here](READMETEST.md) in the test file
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="seo"></a>
 
@@ -715,6 +783,8 @@ I choose these keywords because they didn't have incredibly high volume and comp
 
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="marketing"></a>
 
 # **8. Marketing**
@@ -730,14 +800,17 @@ As part of my marketing strategies, I have decided to use content marketing, soc
 -	Email marketing – another free source of marketing, where by using email subscriptions users would receive a newsletter, outlining current items in the store, sales and any other elements. This is a straightforward way to increase sales and have customer returning by providing discounts
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="social"></a>
 
 # **9. Social Media Business Page**
 
 The business will use social media as a platform to promote the business is [Facebook business page](https://www.facebook.com/BeBike-Store-100847359323133)
 
-
 ![Facebook_business_page](readme_documents/marketing/facebook_main.jpg)
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="deployment"></a>
 
@@ -792,6 +865,8 @@ The business will use social media as a platform to promote the business is [Fac
     * pip3 freeze > requirements.txt
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="endProduct"></a>
 
 # **11. End Product**
@@ -809,6 +884,8 @@ The business will use social media as a platform to promote the business is [Fac
 
 ![Product view](readme_documents/end_products/product_view_page.png)
 
+[Back to Table Of Content](#tableOfContents)
+
 ### **Sign in**
 
 ![Sign in](readme_documents/end_products/signin_page.png)
@@ -820,6 +897,8 @@ The business will use social media as a platform to promote the business is [Fac
 ### **My Profile**
 
 ![My Profile](readme_documents/end_products/myprofile_page.png)
+
+[Back to Table Of Content](#tableOfContents)
 
 ### **Newsletter**
 
@@ -833,6 +912,8 @@ The business will use social media as a platform to promote the business is [Fac
 
 ![Newsletter unsubscribe](readme_documents/end_products/newsletter_unsubscribe_page.png)
 
+[Back to Table Of Content](#tableOfContents)
+
 ### **Checkout page**
 
 ![Checkout page](readme_documents/end_products/checkout_page.png)
@@ -843,6 +924,8 @@ The business will use social media as a platform to promote the business is [Fac
 ![Checkout page success](readme_documents/end_products/checkout_succes_page.png)
 
 <hr>
+
+[Back to Table Of Content](#tableOfContents)
 
 <a name="knownBugs"></a>
 
@@ -862,8 +945,7 @@ Incorrect packet unstalled instead of Boto3 boto was installed
 
 ![product_size value](readme_documents/testing/Product_size_error.png)
 
-
-Unexpected keywors argument 'product_size' caused html 400 error once size of product was choosen, fixed by adding 'product_size' to checkout model.py
+Unexpected keywords argument 'product size' caused html 400 error once size of product was chosen, fixed by adding 'product size' to checkout model.py
 
 ```python
     product_size = models.CharField(
@@ -882,7 +964,7 @@ Error with calculation caused by incorrect way of assigning calculation in the c
             self.delivery_cost = self.order_total * (
                             settings.STANDARD_DELIVERY_PERCENTAGE / 100)
 ```
-Fixed by adding new value sdp and remove from parenthises
+Fixed by adding new value sdp and remove from parentheses
 
 ```python
     if self.order_total < settings.FREE_DELIVERY_THRESHOLD:
@@ -894,17 +976,21 @@ Fixed by adding new value sdp and remove from parenthises
 
 Incorrect url directing to 'bag' in the secure checkout message, issue fixed by replacing it with 'checkout'
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="remainBugs"></a>
 
-# **12.1 Remaining Bugs**
+# **12.2 Remaining Bugs**
 
-No remain bugs
+No remaining bugs, all known bugs adressed and fixwd before final deplayment
 
 <hr>
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="credits"></a>
 
-# **14. Credits**
+# **13. Credits**
 
 -   Heroku deployment instructions from Code Institute
 
@@ -916,7 +1002,7 @@ No remain bugs
 
 -   CI Tutor Support for Help with
     -   static files upload issue
-    -   Incorect value in the database
+    -   Incorrect value in the database
 
 -   Bootstrap documentation
 
@@ -934,15 +1020,19 @@ No remain bugs
 
 -   Images of existing products from fietsenwinkel.nl 
 
+[Back to Table Of Content](#tableOfContents)
+
 <a name="acknowledgements"></a>
 
 # **14. Acknowledgements**
 
 
-I want to thank my Mentor **Marcel Mulder** for support and advice during my journey in the Code Institute, I couldn't have asked for a better Mentor – Thank you, Marcel!!!
+I want to thank my Mentor **Marcel Mulder** for support and advice during my journey in the Code Institute, I could not have asked for a better Mentor – Thank you, Marcel!!!
 
-The fantastic **Code Institute Tutor Support team**, without you, I'll not be able to release this project on time
+The fantastic **Code Institute Tutor Support team**, without you, I will not be able to release this project on time
 
 My coding Buddy **Mateusz Leks** and all colleagues and peers in the Slack Community who are always there to offer their support and advice and some general good cheer on the tougher days! 
 
-Special thanks to my fiancé **Malgorzata Ostrowska** for all patient and believing in me when I wasn't believing in myself
+Special thanks to my fiancé **Malgorzata Ostrowska** for all patient and believing in me when I was not believing in myself
+
+[Back to Table Of Content](#tableOfContents)
