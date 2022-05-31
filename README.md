@@ -401,8 +401,7 @@ The issues were then closed automatically when the pull request was linked to th
 ### **Kanban Final**
 <hr>
 
-![Kanban Final]()
-
+![Kanban Final](readme_documents/kanban/Kanban_final.png)
 
 
 [Back to Table Of Content](#tableOfContents)
