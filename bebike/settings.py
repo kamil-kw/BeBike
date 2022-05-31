@@ -14,7 +14,7 @@ import os
 import dj_database_url
 
 if os.path.isfile("env.py"):
-    import env  # noqa # pylint: disable=unused-import
+    import env  # noqa # pylint: disable=unused-import, jedi
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -33,10 +33,9 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['bebike.herokuapp.com', 'localhost']
 
-
 # Application definition
 
-INSTALLED_APPS = 
+INSTALLED_APPS =
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
